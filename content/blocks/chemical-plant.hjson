@@ -1,0 +1,54 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Chemical Plant",
+    craftEffect: "reactorsmoke",
+
+    size: 5,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: [
+                "project-b-heavy-oil/0.3"
+             ]
+            output: "project-b-lubricant/0.3",
+            craftTime: 80 
+        },
+        {
+            input: [
+                "water/0.3",
+                "project-b-sulfur/6"
+]
+            output: "project-b-sulfur-acid/0.5",
+            craftTime: 80 
+        },
+        {
+            input: {
+"items": [
+                "coal/1"
+],
+"fluids": [
+                "project-b-propylene/0.3",
+                "project-b-ethylene/0.3",
+],
+"power": 5.5
+            },
+            output: "project-b-plastic/1",
+            craftTime: 100 
+        },
+    ],
+
+    requirements: [
+        "lead/50",
+        "silver/100",
+        "graphite/60",
+        "silicon/50",
+        "metaglass/70",
+        "electronic-circuit/10",
+        "advanced-electronic-circuit/5",
+        "cadmium/20",
+        "copper/70"
+    ],
+}

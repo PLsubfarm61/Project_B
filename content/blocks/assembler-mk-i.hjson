@@ -1,0 +1,55 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Assemble MK I",
+
+    size: 3,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"items": [
+                "copper/2",
+                "project-b-silver/1",
+                "lead/1",
+],
+"power": 5
+            },
+            output: "project-b-electronic-circuit/1",
+            craftTime: 180 
+        },
+        {
+            input: {
+"items": [
+                "project-b-electronic-circuit/1",
+                "project-b-gold-oxide/3",
+                "project-b-silver/1",
+]
+"power": 5
+            }
+            output: "project-b-advanced-electronic-circuit/1",
+            craftTime: 240 
+        },
+        {
+            input: {
+"items": [
+                "copper/3",
+                "project-b-silver/2",
+                "lead/1",
+]
+"power": 5
+            }
+            output: "project-b-electro-magnet/1",
+            craftTime: 140 
+        },
+    ],
+
+    requirements: [
+        "lead/100",
+        "silver/30",
+        "lead/200",
+        "copper/80"
+    ],
+}

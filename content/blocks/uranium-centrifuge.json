@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "Uranium Centrifuge [red][WIP]",
+	"description": ".",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "enriched-uranium", "amount": 5},
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 600,
+	"consumes": {
+		"power": 1.2,
+		"liquid": {"liquid": "sulfur-acid", "amount": 0.6},
+		"items": {"items" : [{"item": "raw-uranium", "amount": 5}]}
+	},
+	"requirements": [
+		{ "item": "silver", "amount": 70 },
+		{ "item": "lead", "amount": 63 },
+		{ "item": "cadmium", "amount": 75 },
+		{ "item": "silicon", "amount": 55 },
+		{ "item": "metaglass", "amount": 56 },
+	],
+	"category": "crafting",
+	"research": "oil-extractor"
+}

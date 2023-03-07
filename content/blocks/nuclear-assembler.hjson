@@ -1,0 +1,35 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Nuclear Assembler [red][WIP]",
+    consumesPower: "0.6",
+
+    size: 3,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: [
+                "lead/4",
+                "project-b-enriched-uranium/5"
+            ],
+            output: "project-b-fuel-rod/1",
+            craftTime: 180 
+        },
+        {
+            input: [
+                    "project-b-silver/6",
+                    "project-b-cadmium/3" 
+                ],
+            output: "project-b-control-rod/1",
+            craftTime: 90 
+        }
+    ],
+
+    requirements: [
+        "lead/200",
+        "silver/100"
+        "copper/50"
+    ],
+}

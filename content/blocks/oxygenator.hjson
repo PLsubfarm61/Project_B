@@ -1,0 +1,42 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Oxygenator",
+    craftEffect: "drillSteam",
+
+    size: 3,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-gold/1",
+],
+"power": 4
+            },
+            output: "project-b-gold-oxide/1",
+            craftTime: 100 
+        },
+        {
+            input: {
+"items": [
+                "project-b-raw-uranium/1"
+]
+"power": 4
+            },
+            output: "project-b-uranium-oxide/1",
+            craftTime: 100 
+        },
+
+    ],
+
+    requirements: [
+        "lead/40",
+        "silver/100",
+        "metaglass/20",
+        "electronic-circuit/2",
+        "copper/50"
+    ],
+}

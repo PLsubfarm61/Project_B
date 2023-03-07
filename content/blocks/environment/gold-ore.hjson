@@ -1,0 +1,5 @@
+{
+	type: "oreBlock", 
+	itemDrop: "gold",
+	oreDefault: "true"
+}

@@ -1,0 +1,42 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Electric Boiler",
+    craftEffect: "ventSteam",
+
+    size: 3,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: {
+"fluids": [
+                "oil/0.3"
+]
+"power": 5.5
+            },
+            output: "project-b-hot-oil/0.3",
+            craftTime: 80 
+        },
+        {
+            input: {
+"fluids": [
+                "water/0.3"
+]
+"power": 5.5
+            }
+            output: "project-b-steam/0.3",
+            craftTime: 80 
+        }
+    ],
+
+    requirements: [
+        "lead/100",
+        "metaglass/50",
+        "electronic-circuit/5",
+        "cadmium/50",
+        "silicon/30",
+        "copper/50"
+    ],
+}

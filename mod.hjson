@@ -1,0 +1,9 @@
+{
+name: "project-b"
+displayName: "Project B [Alpha]"
+author: "polish subfarm61"
+main: "Mod need MULTICRAFTERLIB to work"
+description: "Mod need MULTICRAFTERLIB to work. Discord link - https://discord.gg/7SSAupjxeD"
+version: "0"
+minGameVersion: 136
+}
