@@ -7,20 +7,28 @@
     size: 5,
     health: 900,
 
-    menu: "Simple",
+    menu: "Detailed",
     recipes: [
         {
-            input: [
+            input: {
+"fluids": [
                 "project-b-heavy-oil/0.3"
-             ]
+             ],
+"power": 5.5
+},
             output: "project-b-lubricant/0.3",
             craftTime: 80 
         },
         {
-            input: [
+            input: {
+"fluids": [
                 "water/0.3",
+],
+"items": [
                 "project-b-sulfur/6"
-]
+],
+"power": 5.5
+},
             output: "project-b-sulfur-acid/0.5",
             craftTime: 80 
         },
