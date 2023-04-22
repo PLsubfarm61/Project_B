@@ -1,9 +1,27 @@
 {
 name: "project-b"
 displayName: "Project B [Alpha]"
-author: "polish subfarm61"
-main: "Mod need MULTICRAFTERLIB to work"
-description: "Mod need MULTICRAFTERLIB to work. Discord link - https://discord.gg/7SSAupjxeD"
+author: " [[]white]pol[[]red]ish [[]lime]subfarm61 "
+subtitle: "Biggest mod for mindustry."
+description: 
+'''
+[[]green]=============|DESCRIPTION|============
+[[]lightgray]I'm making the biggest mod for mindustry. If you like mod, please leave a [[]yellow]star [[]lightgray]on [[]gray]github.
+[[]green]=================|INFO|=================
+[[]white]Mod need "[[]#42a5f5]MultiCrafter Lib[[]white]" to work.
+[[]green]===============|DISCORD|===============
+  [[]navy]Discord [[]white]link - 
+ [[]blue]https://discord.gg/7SSAupjxeD
+[[]forest]-------------------------------------
+[[]lime]Me [[]white]polish subfarm61#6776
+[[]green]==============|PROBLEMS|==============
+[[]white]If you have [[]lime]suggestion[[]white] or you find a 
+[[]purple]bug[[]white], describe it on our discord server. 
+[[]green]========================================
+'''
 version: "0"
+dependencies: [
+  multi-crafter
+],
 minGameVersion: 136
 }
