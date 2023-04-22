@@ -18,5 +18,6 @@ power: 10,
         "silver/30",
         "metaglass/20",
         "graphite/100",
+        "concrete-brick/80",
     ],
 }
