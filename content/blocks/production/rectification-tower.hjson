@@ -1,0 +1,70 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Rectification Tower",
+
+    size: 5,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: [
+                "project-b-hot-oil/0.3"
+            ],
+            output: [
+            "project-b-diesel/0.3",
+            "project-b-bitumen/1"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                    "project-b-hot-oil/0.3" 
+                ],
+            output: [
+            "project-b-gasoline/0.3",
+            "project-b-bitumen/1"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                "project-b-hot-oil/0.3"
+            ],
+            output: [
+            "project-b-heavy-oil/0.3",
+            "project-b-bitumen/1"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                "project-b-hot-oil/0.3"
+            ],
+            output: [
+            "project-b-kerosene/0.3",
+            "project-b-bitumen/1"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                "project-b-hot-oil/0.3"
+            ],
+            output: [
+            "project-b-lpg-gas/0.3",
+            "project-b-bitumen/1"
+            ],
+            craftTime: 80 
+        }
+    ],
+
+    requirements: [
+        "lead/250",
+        "clay-brick/100",
+        "copper/100"
+        "metaglass/50"
+        "silver/50"
+    ],
+}

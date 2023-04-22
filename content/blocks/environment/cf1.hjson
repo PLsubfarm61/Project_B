@@ -1,0 +1,10 @@
+{
+	type: "floor",
+        category: "turret", 
+        buildVisibility: "shown",
+        name: "Concrete Floor",
+
+    requirements: [
+        "concrete-brick/3",
+    ],
+}
