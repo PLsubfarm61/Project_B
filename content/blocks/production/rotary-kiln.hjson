@@ -18,6 +18,7 @@ input: {
 "fluids": [
 
 ],
+power: 4
             },
             output: "project-b-cement/7",
             craftTime: 180 
@@ -30,6 +31,7 @@ input: {
 "fluids": [
 "project-b-heavy-oil/0.1",
 ],
+power: 4
             },
             output: "project-b-cement/7",
             craftTime: 180 
@@ -42,6 +44,7 @@ input: {
 "fluids": [
 "project-b-gasoline/0.2",
 ],
+power: 4
             },
             output: "project-b-cement/7",
             craftTime: 180 
@@ -54,6 +57,7 @@ input: {
 "fluids": [
 "project-b-lpg-gas/0.3",
 ],
+power: 4
             },
             output: "project-b-cement/7",
             craftTime: 180 
@@ -66,6 +70,7 @@ input: {
 "fluids": [
 "project-b-natural-gas/0.4",
 ],
+power: 4
             },
             output: "project-b-cement/7",
             craftTime: 180 
@@ -88,9 +93,12 @@ input: {
     ],
 
     requirements: [
-        "copper/25",
-        "cadmium/5",
+        "copper/30",
+        "clay-brick/60",
+        "cadmium/50",
         "graphite/30",
-        "lead/35",
+        "lead/100",
+        "electric-engine/4",
+        "electronic-circuit/25",
     ],
 }
