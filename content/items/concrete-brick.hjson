@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Concrete Brick",
-	description": ".",
-	cost: 3.0,
-	color: "999999"
-}

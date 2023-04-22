@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Electric Engine",
-	description": ".",
-	cost: 3.0,
-	color: "8ff9f5ff"
-}

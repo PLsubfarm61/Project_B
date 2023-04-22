@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Polonium",
-	description": ".",
-	cost: 3.0,
-	color: "ffffff"
-}

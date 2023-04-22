@@ -1,5 +1,0 @@
-{
-	type: "oreBlock", 
-	itemDrop: "magnetite",
-	oreDefault: "true"
-}

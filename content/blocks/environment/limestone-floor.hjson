@@ -1,6 +1,0 @@
-{
-	type: floor 
-        name: Limestone
-	itemDrop: limestone
-	oreDefault: true
-}

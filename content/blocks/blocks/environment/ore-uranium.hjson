@@ -1,5 +1,0 @@
-{
-	type: "oreBlock", 
-	itemDrop: "raw-uranium",
-	oreDefault: "true"
-}

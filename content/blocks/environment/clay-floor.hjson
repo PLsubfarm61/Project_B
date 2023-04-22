@@ -1,7 +1,0 @@
-{
-	type: floor 
-        name: Clay
-	itemDrop: clay
-	oreDefault: true
-        cacheLayer: mud
-}

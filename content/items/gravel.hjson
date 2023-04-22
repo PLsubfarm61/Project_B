@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Gravel",
-	description": ".",
-	cost: 3.0,
-	color: "300500"
-}
