@@ -1,0 +1,10 @@
+{
+  "type": "CellLiquid",
+  "capPuddles": true,
+  "name": "Washing Solution",
+  "description": "."
+  "color": "2ff3f8ff",
+  "colorFrom": "9ff9ff",
+  "colorTo": "ffffff",
+}
+

@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Jet Turbine",
+	description": ".",
+	cost: 3.0,
+	color: "8ff9f5ff"
+}
