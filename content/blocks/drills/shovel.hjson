@@ -1,0 +1,32 @@
+{
+    type: "AttributeCrafter",
+    category: "production",
+    name: "Shovel",
+    
+    size: 2,
+    health: 35,
+
+    craftTime: 480,
+    baseEfficiency: 1,
+    outputItem: "gravel/1",
+
+    requirements: [
+        "graphite/20"
+        "electronic-circuit/5"
+    ],
+
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 1
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-top"
+        }
+    ]
+}

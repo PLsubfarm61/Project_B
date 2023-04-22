@@ -1,0 +1,5 @@
+{
+type: "TreeBlock",
+name: "Dead Tree",
+destructible: "true",
+}
