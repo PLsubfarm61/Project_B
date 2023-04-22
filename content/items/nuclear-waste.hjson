@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Nuclear Waste",
+	description": ".",
+	cost: 3.0,
+	color: "ffff00"
+}
