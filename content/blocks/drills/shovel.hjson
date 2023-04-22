@@ -11,8 +11,8 @@
     outputItem: "gravel/1",
 
     requirements: [
-        "graphite/20"
-        "electronic-circuit/5"
+        "graphite/12"
+        "copper/20"
     ],
 
     drawer: [
