@@ -1,5 +1,5 @@
-# Project_B [nuclear power] 
+# Project_B [Gigantic Update!] 
 
 Im making biggest mod in mindustry.
-Mod need multicrafterlid. 
+Mod need multicrafterlib. 
 Discord link - https://discord.gg/7SSAupjxeD
