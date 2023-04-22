@@ -1,0 +1,24 @@
+{
+    type: "ConsumeGenerator",
+    category: "power",
+    name: "High Pressure Steam Turbine",
+    size: 4,
+    health: 900,
+    powerProduction: 80,
+    itemDuration: 120,
+
+    consumes: {
+    liquid: "steam-hi/0.2"
+},
+    outputLiquid: "steam/0.2"
+    requirements: [
+        "advanced-electronic-circuit/20",
+        "graphite/100",
+        "concrete-brick/50"
+        "electronic-circuit/40",
+        "alternator/40",
+        "lead/100",
+        "metaglass/40",
+        "copper/100"
+    ],
+}

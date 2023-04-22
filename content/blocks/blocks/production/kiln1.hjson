@@ -1,0 +1,99 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Kiln",
+    updateEffect: "ventSteam",
+    updateEffectChance: "0.02",
+
+    size: 2,
+    health: 240,
+
+    menu: "Detailed",
+    recipes: [
+{
+input: {
+"items": [
+                "project-b-clay/5",
+                "project-b-gravel/2",
+                "coal/3",
+],
+"fluids": [
+                "water/0.1",
+],
+            },
+            output: "project-b-clay-brick/2",
+            craftTime: 240 
+        },
+{
+input: {
+"items": [
+                "project-b-clay/5",
+                "project-b-gravel/2",
+],
+"fluids": [
+                "water/0.1",
+                "project-b-heavy-oil/0.1",
+],
+            },
+            output: "project-b-clay-brick/2",
+            craftTime: 240 
+        },
+{
+input: {
+"items": [
+                "project-b-clay/5",
+                "project-b-gravel/2",
+],
+"fluids": [
+                "water/0.1",
+                "project-b-natural-gas/0.2",
+],
+            },
+            output: "project-b-clay-brick/2",
+            craftTime: 240 
+        },
+{
+input: {
+"items": [
+                "coal/3",
+],
+"fluids": [
+                "project-b-liquid-concrete/0.1",
+],
+            },
+            output: "project-b-concrete-brick/3",
+            craftTime: 240 
+        },
+{
+input: {
+"items": [
+],
+"fluids": [
+                "project-b-liquid-concrete/0.1",
+                "project-b-heavy-oil/0.1",
+],
+            },
+            output: "project-b-concrete-brick/3",
+            craftTime: 240 
+        },
+{
+input: {
+"items": [
+],
+"fluids": [
+                "project-b-liquid-concrete/0.1",
+                "project-b-natural-gas/0.2",
+],
+            },
+            output: "project-b-concrete-brick/3",
+            craftTime: 240 
+        },
+    ],
+
+    requirements: [
+        "copper/25",
+        "cadmium/5",
+        "graphite/30",
+        "lead/35",
+    ],
+}
