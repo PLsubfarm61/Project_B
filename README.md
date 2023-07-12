@@ -1,4 +1,4 @@
-# Project_B [Gigantic Update!] 
+# Project_B [Alpha] 
 
 Im making biggest mod in mindustry.
 Mod need multicrafterlib. 
