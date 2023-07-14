@@ -22,8 +22,8 @@ fluids: [
 ],
             },
             output: [
-                "project-b-asteroid-chunk/8",
-                "project-b-asteroid-stones/3",
+                "project-b-asteroid-chunk/9",
+                "project-b-asteroid-stones/5",
                 "scrap/12",
 ],
             craftTime: 28800 

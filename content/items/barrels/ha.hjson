@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Barrel (HA)",
+	description": ".",
+	cost: 3.0,
+	color: "872398"
+}

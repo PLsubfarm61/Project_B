@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Explosives",
+	description": ".",
+	cost: 3.0,
+	color: "ff0000"
+}

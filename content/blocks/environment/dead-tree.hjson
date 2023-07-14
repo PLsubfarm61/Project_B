@@ -2,4 +2,9 @@
 type: "TreeBlock",
 name: "Dead Tree",
 destructible: "true",
+category: "turret",
+
+    requirements: [
+        "biomass/15",
+    ],
 }

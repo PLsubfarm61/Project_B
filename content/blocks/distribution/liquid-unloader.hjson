@@ -212,6 +212,40 @@
     },
             craftTime: 50 
         },
+        {
+            input: {
+"items": [
+                "project-b-na/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-nitric-acid/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-ha/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-hixybutkspium-acid/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
     ],
 
     requirements: [

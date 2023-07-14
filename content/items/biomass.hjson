@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Biomass",
+	description": ".",
+	cost: 3.0,
+	color: "cbd97f"
+}
