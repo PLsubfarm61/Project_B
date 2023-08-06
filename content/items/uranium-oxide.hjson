@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Uranium Oxide",
-	description": ".",
-	cost: 3.0,
-	color: "aaffbb"
-}

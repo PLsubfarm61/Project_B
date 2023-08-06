@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Depleted Polonium Fuel Rod",
-	description": ".",
-	cost: 3.0,
-	color: "888888"
-}

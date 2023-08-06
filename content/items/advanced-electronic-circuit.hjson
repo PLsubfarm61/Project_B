@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Advanced Electronic Circuit",
-	description": ".",
-	cost: 3.0,
-	color: "ff0000"
-}

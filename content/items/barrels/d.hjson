@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Barrel (D)",
-	description": ".",
-	cost: 3.0,
-	color: "ffff00"
-}

@@ -1,7 +1,0 @@
-{
-	type: "material",
-	name: "Alternator",
-	description": ".",
-	cost: 3.0,
-	color: "f99900"
-}
