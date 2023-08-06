@@ -1,0 +1,104 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Rotary Kiln",
+    craftEffect: "ventSteam",
+
+    size: 4,
+    health: 240,
+
+    menu: "Detailed",
+    recipes: [
+{
+input: {
+"items": [
+                "project-b-limestone/12",
+                "coal/3",
+],
+"fluids": [
+
+],
+power: 4
+            },
+            output: "project-b-cement/7",
+            craftTime: 180 
+        },
+{
+input: {
+"items": [
+                "project-b-limestone/12",
+],
+"fluids": [
+"project-b-heavy-oil/0.1",
+],
+power: 4
+            },
+            output: "project-b-cement/7",
+            craftTime: 180 
+        },
+{
+input: {
+"items": [
+                "project-b-limestone/12",
+],
+"fluids": [
+"project-b-gasoline/0.2",
+],
+power: 4
+            },
+            output: "project-b-cement/7",
+            craftTime: 180 
+        },
+{
+input: {
+"items": [
+                "project-b-limestone/12",
+],
+"fluids": [
+"project-b-lpg-gas/0.3",
+],
+power: 4
+            },
+            output: "project-b-cement/7",
+            craftTime: 180 
+        },
+{
+input: {
+"items": [
+                "project-b-limestone/12",
+],
+"fluids": [
+"project-b-natural-gas/0.4",
+],
+power: 4
+            },
+            output: "project-b-cement/7",
+            craftTime: 180 
+        },
+    ],
+
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 0.2
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-top"
+        }
+    ],
+
+    requirements: [
+        "copper/30",
+        "clay-brick/60",
+        "cadmium/50",
+        "graphite/30",
+        "lead/100",
+        "electric-engine/4",
+        "electronic-circuit/25",
+    ],
+}

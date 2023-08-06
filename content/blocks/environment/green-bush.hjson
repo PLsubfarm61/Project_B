@@ -1,0 +1,10 @@
+{
+type: "TreeBlock",
+name: "Bush",
+destructible: "true"
+category: "turret",
+
+    requirements: [
+        "biomass/15",
+    ],
+}

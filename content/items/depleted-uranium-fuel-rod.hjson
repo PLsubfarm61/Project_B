@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Depleleted Uranium Fuel Rod",
+	description": ".",
+	cost: 3.0,
+	color: "246810"
+}

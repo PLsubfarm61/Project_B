@@ -1,0 +1,10 @@
+{
+	type: "floor",
+        category: "turret", 
+        buildVisibility: "shown",
+        name: "Bricks Floor [#770500][Cracked]",
+
+    requirements: [
+        "clay-brick/3",
+    ],
+}

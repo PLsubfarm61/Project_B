@@ -1,0 +1,103 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Enrichement Centrifuge",
+    itemCapacity: "50",
+
+    size: 4,
+    health: 900,
+
+    menu: "detailed",
+    recipes: [
+        {
+            input: {
+"fluids": [
+                "project-b-sulfur-acid/0.1",
+],
+"items": [
+                "project-b-raw-uranium/7"
+],
+"power": 3.5
+},
+            output: [ 
+                "project-b-enriched-uranium/3",
+],
+            craftTime: 600 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-sulfur-acid/0.3",
+],
+"items": [
+                "project-b-raw-uranium/25"
+],
+"power": 3.5
+},
+            output: [ 
+                "project-b-enriched-uranium/17",
+                "project-b-polonium/2",
+],
+            craftTime: 1200 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-liquid-hydrogen/0.3",
+                "project-b-butylene/0.2",
+],
+"items": [
+                "project-b-wymritlium/1"
+],
+"power": 3.5
+},
+            output: [ 
+                "project-b-hixybutkspium-acid/0.6",
+],
+            craftTime: 360 
+        },
+],
+
+
+
+
+drawer: {
+  type: multicraft.DrawRecipe
+  defaultDrawer: 0 // an index used for generating the icon of this crafter. 
+  drawers: [
+    // for recipe 0
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawRegion
+          suffix: -1
+      }
+    ]
+    }
+    // for recipe 1
+    { 
+      type: DrawRegion
+      suffix: -2
+    }
+    // for recipe 2
+    { 
+      type: DrawRegion
+      suffix: -3
+    }
+  ]
+}
+
+    requirements: [
+
+        "silver/100",
+        "graphite/70",
+        "electric-engine/10",
+        "metaglass/100",
+        "concrete-brick/70",
+        "processor/1",
+        "copper/40",
+        "advanced-electronic-circuit/15",
+        "cadmium/100",
+    ],
+}

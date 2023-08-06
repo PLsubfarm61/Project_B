@@ -1,0 +1,29 @@
+{
+    type: "SolarGenerator",
+    category: "power",
+    name: "Wind Turbine",
+    size: 3,
+    health: 900,
+    powerProduction: 2,
+    itemDuration: 120,
+
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 1.7
+        },
+    ]
+
+    requirements: [
+        "clay-brick/50",
+        "graphite/60",
+        "electronic-circuit/5",
+        "alternator/4",
+        "silicon/20",
+        "copper/30"
+    ],
+}

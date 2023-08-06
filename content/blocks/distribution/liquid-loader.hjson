@@ -1,0 +1,202 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "distribution",
+    name: "Liquid [lime][Loader]",
+
+    size: 2,
+    health: 900,
+
+    menu: "transform",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-sulfur-acid/0.3"
+],
+"power": 2
+},
+            output: "project-b-sa/1",
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "water/0.3"
+],
+"power": 2
+},
+            output: "project-b-w/1",
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "oil/0.3"
+],
+"power": 2
+},
+            output: "project-b-o/1",
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "cryofluid/0.3"
+],
+"power": 2
+},
+            output: "project-b-cf/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-diesel/0.3"
+],
+"power": 2
+},
+            output: "project-b-d/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-gasoline/0.3"
+],
+"power": 2
+},
+            output: "project-b-g/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-heavy-oil/0.3"
+],
+"power": 2
+},
+            output: "project-b-ho/1",
+            craftTime: 50 
+        },       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-kerosene/0.3"
+],
+"power": 2
+},
+            output: "project-b-k/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-liquid-hydrogen/0.3"
+],
+"power": 2
+},
+            output: "project-b-lh/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-liquid-oxygen/0.3"
+],
+"power": 2
+},
+            output: "project-b-lo/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-lubricant/0.3"
+],
+"power": 2
+},
+            output: "project-b-l/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-washing-solution/0.3"
+],
+"power": 2
+},
+            output: "project-b-ws/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-nitric-acid/0.3"
+],
+"power": 2
+},
+            output: "project-b-na/1",
+            craftTime: 50 
+        },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-hixybutkspium-acid/0.3"
+],
+"power": 2
+},
+            output: "project-b-ha/1",
+            craftTime: 50 
+        },
+    ],
+
+    requirements: [
+        "lead/50",
+        "metaglass/30",
+        "electronic-circuit/10",
+        "electric-engine/5",
+        "concrete-brick/20",
+        "copper/10"
+    ],
+}

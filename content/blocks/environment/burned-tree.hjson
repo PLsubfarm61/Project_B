@@ -1,0 +1,11 @@
+{
+type: "TreeBlock",
+name: "Burned Tree",
+destructible: "true",
+category: "turret",
+
+    requirements: [
+        "biomass/5",
+        "coal/10",
+    ],
+}

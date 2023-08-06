@@ -1,0 +1,53 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "effect",
+    name: "Hadron Colider",
+
+    size: 16,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-magnetite/6",
+                "project-b-polonium/4",
+                "project-b-radliton/1",
+],
+"power": 80,
+            },
+            output: { 
+"items": [
+                "project-b-wymritlium/5",
+                "project-b-nuclear-waste/12",
+],
+},
+            craftTime: 360 
+        },
+    ],
+
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 1.5
+        },
+    ]
+
+    requirements: [
+        "lead/1500",
+        "graphite/1500",
+        "concrete-brick/3000",
+        "silver/100",
+        "metaglass/1000",
+        "electro-magnet/1500",
+        "cadmium/350",
+        "electric-engine/150",
+        "processor/150",
+        "silicon/600"
+    ],
+}

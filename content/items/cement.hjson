@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Cement",
+	description": ".",
+	cost: 3.0,
+	color: "999999"
+}

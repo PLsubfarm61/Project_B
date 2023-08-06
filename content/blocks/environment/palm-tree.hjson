@@ -1,0 +1,10 @@
+{
+type: "TreeBlock",
+name: "Palm",
+destructible: "true"
+category: "turret",
+
+    requirements: [
+        "biomass/20",
+    ],
+}

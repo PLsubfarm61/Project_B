@@ -1,0 +1,10 @@
+{
+	type: "floor", 
+        category: "turret", 
+        buildVisibility: "shown",
+        name: "Sand",
+
+    requirements: [
+        "sand/3",
+    ],
+}

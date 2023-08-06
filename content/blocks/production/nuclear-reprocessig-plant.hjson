@@ -1,0 +1,41 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Nuclear Reprocessig Plant",
+
+    size: 5,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-depleted-uranium-fuel-rod/10",
+],
+"fluids": [
+                "project-b-sulfur-acid/0.4",
+],
+"power": 5.5,
+            },
+            output: { 
+"items": [
+                "project-b-plutonium/7",
+                "project-b-nuclear-waste/3",
+],
+},
+            craftTime: 360 
+        },
+
+    ],
+
+    requirements: [
+        "graphite/50",
+        "concrete-brick/100",
+        "silver/30",
+        "metaglass/100",
+        "cadmium/40",
+        "electric-engine/4",
+        "processor/20",
+    ],
+}

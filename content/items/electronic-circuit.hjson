@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Electronic Circuit",
+	description": ".",
+	cost: 3.0,
+	color: "249910"
+}

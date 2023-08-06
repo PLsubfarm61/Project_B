@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Wymritlium",
+	description": ".",
+	cost: 3.0,
+	color: "d77d51"
+}

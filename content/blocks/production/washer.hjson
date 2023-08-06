@@ -1,0 +1,59 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Washer",
+    craftEffect: "reactorsmoke",
+
+    size: 3,
+    health: 900,
+
+    menu: "detailed",
+    recipes: [
+        {
+            input: {
+"fluids": [
+                "water/0.3",
+],
+"items": [
+                "project-b-asteroid-chunk/3"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-soupan/7",
+                "project-b-hypronite/5",
+                "project-b-diamond/3",
+                "project-b-asteroid-stones/3"
+],
+            craftTime: 120 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-washing-solution/0.3",
+],
+"items": [
+                "project-b-asteroid-stones/3"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-radliton/2",
+                "scrap/3",
+],
+            craftTime: 120 
+        },
+    ],
+
+    requirements: [
+
+        "silver/100",
+        "graphite/50",
+        "concrete-brick/20",
+        "electric-engine/4",
+        "metaglass/100",
+        "electronic-circuit/12",
+        "advanced-electronic-circuit/5",
+        "cadmium/10",
+    ],
+}

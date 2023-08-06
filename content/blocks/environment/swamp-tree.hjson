@@ -1,0 +1,10 @@
+{
+type: "TreeBlock",
+name: "Swamp Tree",
+destructible: "true",
+category: "turret",
+
+    requirements: [
+        "biomass/18",
+    ],
+}

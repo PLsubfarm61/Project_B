@@ -1,0 +1,50 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Atmosphere Collector",
+    craftEffect: "drillSteam",
+
+    size: 3,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: {
+"items": [
+],
+"power": 4
+            },
+            output: "project-b-oxygen/0.3",
+            craftTime: 100 
+        },
+        {
+            input: {
+"items": [
+],
+"power": 4
+            },
+            output: "project-b-hydrogen2/0.1",
+            craftTime: 100 
+        },
+        {
+            input: {
+"items": [
+],
+"power": 4
+            },
+            output: "project-b-nitrogen1/0.2",
+            craftTime: 100 
+        },
+
+
+    ],
+
+    requirements: [
+        "lead/40",
+        "silver/100",
+        "metaglass/40",
+        "electronic-circuit/2",
+        "electric-engine/10"
+    ],
+}

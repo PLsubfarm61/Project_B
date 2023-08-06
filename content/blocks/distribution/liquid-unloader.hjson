@@ -1,0 +1,259 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "distribution",
+    name: "Liquid [red][Unloader]",
+
+    size: 2,
+    health: 900,
+
+    menu: "transform",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-sa/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-sulfur-acid/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-w/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "water/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-o/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "oil/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-cf/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "cryofluid/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-d/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-diesel/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-g/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-gasoline/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-ho/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-heavy-oil/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-k/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-kerosene/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-lh/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-liquid-hydrogen/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-lo/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-liquid-oxygen/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-l/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-lubricant/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-ws/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-washing-solution/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-na/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-nitric-acid/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+        {
+            input: {
+"items": [
+                "project-b-ha/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-hixybutkspium-acid/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+    ],
+
+    requirements: [
+        "lead/50",
+        "metaglass/30",
+        "electronic-circuit/10",
+        "concrete-brick/20",
+        "electric-engine/5",
+        "copper/10"
+    ],
+}

@@ -1,0 +1,5 @@
+{
+	type: "oreBlock", 
+	itemDrop: "cadmium",
+	oreDefault: "true",
+}

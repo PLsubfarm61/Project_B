@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Stage 2 MK I",
+	description": ".",
+	cost: 3.0,
+	color: "8ff9f5ff"
+}

@@ -1,0 +1,23 @@
+{
+    type: "ConsumeGenerator",
+    category: "power",
+    name: "Diesel Generator",
+    generateEffect: "ventSteam",
+    size: 3,
+    health: 900,
+    powerProduction: 20,
+    itemDuration: 120,
+
+    consumes: {
+    liquid: "diesel/0.1"
+},
+    requirements: [
+        "advanced-electronic-circuit/5",
+        "graphite/50",
+        "electronic-circuit/10",
+        "alternator/5",
+        "engine/4",
+        "silicon/30",
+        "copper/50"
+    ],
+}

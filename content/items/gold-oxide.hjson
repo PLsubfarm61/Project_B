@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Gold Oxide",
+	description": ".",
+	cost: 3.0,
+	color: "ffff88"
+}
