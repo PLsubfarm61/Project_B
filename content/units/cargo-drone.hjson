@@ -1,0 +1,15 @@
+{
+	type: tether
+        Controller: CargoAI
+	name: Cargo Drone
+        flying: true
+        itemCapacity: 100
+        allowedInPayloads: false
+        logicControllable: false
+        playerControllable: false
+        isEnemy: false
+        speed: 3.5
+        engineSize: 0
+        drawCell : false
+        drawItems: false
+}
