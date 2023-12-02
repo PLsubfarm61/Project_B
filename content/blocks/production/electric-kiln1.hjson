@@ -1,0 +1,49 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Electric Kiln",
+    updateEffect: "ventSteam",
+    updateEffectChance: "0.02",
+
+    size: 3,
+    health: 240,
+
+    menu: "Detailed",
+    recipes: [
+{
+input: {
+"items": [
+                "project-b-clay/5",
+                "project-b-gravel/2",
+],
+"fluids": [
+                "water/0.1",
+],
+"power": 10,
+            },
+            output: "project-b-clay-brick/2",
+            craftTime: 200 
+        },
+{
+input: {
+"items": [
+],
+"fluids": [
+                "project-b-liquid-concrete/0.1",
+],
+"power": 10,
+            },
+            output: "project-b-concrete-brick/3",
+            craftTime: 200 
+        },
+],
+
+    requirements: [
+        "copper/50",
+        "cadmium/40",
+        "graphite/30",
+        "electronic-circuit/5",
+        "advanced-electronic-circuit/2",
+        "clay-brick/20",
+    ],
+}

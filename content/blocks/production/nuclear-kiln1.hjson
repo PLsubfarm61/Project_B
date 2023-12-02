@@ -1,0 +1,62 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Nuclear Kiln",
+    craftEffect: "drillSteam",
+
+    size: 5,
+    health: 240,
+
+    menu: "Detailed",
+    recipes: [
+{
+input: {
+"items": [
+                "project-b-clay/45",
+                "project-b-gravel/18",
+                "project-b-uranium-fuel-rod/1",
+],
+"fluids": [
+                "water/0.9",
+],
+"power": 5.5,
+            },
+            output: {
+"items": [
+"project-b-clay-brick/18",
+"project-b-depleted-uranium-fuel-rod/1",
+],
+},
+            craftTime: 150 
+        },
+{
+input: {
+"items": [
+                "project-b-uranium-fuel-rod/1",
+],
+"fluids": [
+                "project-b-liquid-concrete/0.9",
+],
+"power": 5.5,
+            },
+            output: {
+"items": [
+"project-b-concrete-brick/27",
+"project-b-depleted-uranium-fuel-rod/1",
+],
+},
+            craftTime: 150 
+        },
+],
+
+    requirements: [
+        "copper/50",
+        "cadmium/100",
+        "graphite/80",
+        "electric-engine/5",
+        "processor/1",
+        "advanced-electronic-circuit/10",
+        "control-rod/10",
+        "concrete-brick/100",
+    ],
+}
