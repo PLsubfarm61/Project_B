@@ -1,0 +1,8 @@
+{
+	type: floor 
+        name: Dirty Water
+		liquidDrop: project-b-dirty-water
+		status: wet
+		isLiquid: true
+        cacheLayer: water
+}
