@@ -17,14 +17,159 @@ items: [
 ],
 
 fluids: [
-                "project-b-liquid-oxygen/0.2",
-                "project-b-liquid-hydrogen/0.2",
+                "project-b-liquid-oxygen/0.6",
+                "project-b-liquid-hydrogen/0.6",
 ],
             },
             output: [
                 "project-b-asteroid-chunk/9",
-                "project-b-asteroid-stones/5",
+                "project-b-bauxite-asteroid-chunk/3",
+                "project-b-crushed-asteroid/5",
+                "project-b-crushed-bauxite-asteroid/2",
                 "scrap/12",
+],
+            craftTime: 28800 
+        },
+        {
+            input: {
+items: [
+                "project-b-fairing-mk-i/1",
+                "project-b-asteroid-miner-mk-i/1",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-i/1",
+                "project-b-solid-fuel-rocket-booster/2",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/0.6",
+                "project-b-liquid-hydrogen/0.6",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/20",
+                "project-b-bauxite-asteroid-chunk/9",
+                "project-b-crushed-asteroid/13",
+                "project-b-crushed-bauxite-asteroid/5",
+                "scrap/12",
+],
+            craftTime: 28800 
+        },
+        {
+            input: {
+items: [
+                "project-b-fairing-mk-i/1",
+                "project-b-asteroid-miner-mk-ii/1",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-i/1",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/0.6",
+                "project-b-liquid-hydrogen/0.6",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/17",
+                "project-b-bauxite-asteroid-chunk/7",
+                "project-b-crushed-asteroid/11",
+                "project-b-crushed-bauxite-asteroid/4",
+                "scrap/12",
+],
+            craftTime: 28800 
+        },
+        {
+            input: {
+items: [
+                "project-b-fairing-mk-i/1",
+                "project-b-asteroid-miner-mk-ii/1",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-i/1",
+                "project-b-solid-fuel-rocket-booster/2",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/0.6",
+                "project-b-liquid-hydrogen/0.6",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/28",
+                "project-b-bauxite-asteroid-chunk/19",
+                "project-b-crushed-asteroid/18",
+                "project-b-crushed-bauxite-asteroid/7",
+                "scrap/12",
+],
+            craftTime: 28800 
+        },
+                {
+            input: {
+items: [
+                "project-b-fairing-mk-i/1",
+                "project-b-asteroid-miner-mk-iii/1",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-i/1",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/0.6",
+                "project-b-liquid-hydrogen/0.6",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/34",
+                "project-b-bauxite-asteroid-chunk/23",
+                "project-b-crushed-asteroid/22",
+                "project-b-crushed-bauxite-asteroid/10",
+                "scrap/12",
+],
+            craftTime: 28800 
+        },
+                {
+            input: {
+items: [
+                "project-b-fairing-mk-i/1",
+                "project-b-asteroid-miner-mk-iii/1",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-i/1",
+                "project-b-solid-fuel-rocket-booster/2",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/0.6",
+                "project-b-liquid-hydrogen/0.6",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/37",
+                "project-b-bauxite-asteroid-chunk/26",
+                "project-b-crushed-asteroid/25",
+                "project-b-crushed-bauxite-asteroid/14",
+                "scrap/12",
+],
+            craftTime: 28800 
+        },
+
+                {
+            input: {
+items: [
+                "project-b-fairing-mk-i/1",
+                "project-b-asteroid-miner-mk-iv/1",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-i/1",
+                "project-b-solid-fuel-rocket-booster/2",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/0.6",
+                "project-b-liquid-hydrogen/0.6",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/34",
+                "project-b-bauxite-asteroid-chunk/23",
+                "project-b-crushed-asteroid/22",
+                "project-b-crushed-bauxite-asteroid/10",
+                "project-b-scorched-asteroid-miner-mk-iv/1",
 ],
             craftTime: 28800 
         },
@@ -38,7 +183,7 @@ fluids: [
         "metaglass/150",
         "processor/50"
         "advanced-electronic-circuit/100"
-        "lead/500",
+        "alloy/500",
         "titanium/600"
     ],
 }

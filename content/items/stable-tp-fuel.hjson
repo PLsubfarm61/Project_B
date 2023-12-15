@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "[#00ff00]Stable [#ffffff]TP-Fuel",
+	description": ".",
+	cost: 3.0,
+	color: "0000ff"
+}

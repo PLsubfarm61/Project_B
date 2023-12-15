@@ -29,6 +29,16 @@
             output: "project-b-uranium-oxide/1",
             craftTime: 100 
         },
+        {
+            input: {
+"items": [
+                "lead/1"
+]
+"power": 4
+            },
+            output: "project-b-lead-oxide/1",
+            craftTime: 100 
+        },
 
     ],
 

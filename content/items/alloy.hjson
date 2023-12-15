@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Alloy",
+	description": ".",
+	cost: 3.0,
+	color: "989aa4"
+}

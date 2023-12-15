@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Asteroid Miner MK II",
+	description": ".",
+	cost: 3.0,
+	color: "a020f0"
+}

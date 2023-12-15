@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Crushed Bauxite Asteroid",
+	description": ".",
+	cost: 3.0,
+	color: "deae66"
+}

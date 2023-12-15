@@ -30,7 +30,7 @@ mesh: {
     ]
 }
 
-radius: 0.20
+radius: 0.10
 # Whether this can be landed on.
 accessible: false
 # This is self-explanatory...

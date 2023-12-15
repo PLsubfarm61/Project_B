@@ -139,6 +139,30 @@
             output: "project-b-barrel/1",
             craftTime: 60 
         },
+        {
+            input: {
+"items": [
+                "project-b-cadmium/1",
+                "project-b-silver/2",
+                "graphite/3",
+],
+"power": 5
+            },
+            output: "project-b-graphite-electrode/1",
+            craftTime: 180 
+        },
+        {
+            input: {
+"items": [
+                "coal/10",
+                "phase-fabric/4",
+                "project-b-plastic/5",
+],
+"power": 5
+            },
+            output: "project-b-heat-shield/1",
+            craftTime: 260 
+        },
     ],
 
     requirements: [

@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Solid fuel",
+	description": ".",
+	cost: 3.0,
+	color: "333333"
+}

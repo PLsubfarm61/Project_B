@@ -1,0 +1,63 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Arc Furnace",
+
+    size: 6,
+    health: 900,
+
+    menu: "Detaited",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-graphite-electrode/3",
+                "copper/12",
+                "lead/12",
+                "graphite/12",
+],
+"power": 8.3
+            },
+            output: "project-b-alloy/12",
+            craftTime: 400 
+        },
+        {
+            input: {
+"items": [
+                "project-b-graphite-electrode/3",
+                "project-b-aluminum/24",
+                "copper/12",
+                "silicon/12",
+],
+"power": 8.3
+            },
+            output: "project-b-duralumin/12",
+            craftTime: 400 
+        },
+        {
+            input: {
+items: [
+                "project-b-graphite-electrode/3",
+                 "lead/24",
+                 "copper/12",
+                 "project-b-lead-oxide/24",
+                 "project-b-gold-oxide/12",
+                 "project-b-sulfur/12",
+],
+"power": 10
+                },
+            output: "project-b-superconductor/12",
+            craftTime: 400 
+        },
+    ],
+
+
+    requirements: [
+        "lead/80",
+        "silver/50",
+        "concrete-brick/150",
+        "metaglass/50",
+        "advanced-electronic-circuit/30",
+        "copper/100"
+    ],
+}

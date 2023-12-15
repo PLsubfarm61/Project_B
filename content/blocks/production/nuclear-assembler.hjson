@@ -55,6 +55,18 @@ items: [
         {
             input: {
 items: [
+                "lead/4",
+                "project-b-polonium/5"
+                "thorium/5"
+            ],
+"power": 5
+},
+            output: "project-b-tp-rod/1",
+            craftTime: 180 
+        },
+        {
+            input: {
+items: [
                 "project-b-depleted-plutonium-fuel-rod/5",
             ],
 "power": 5

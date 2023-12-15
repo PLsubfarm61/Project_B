@@ -189,6 +189,19 @@
             output: "project-b-ha/1",
             craftTime: 50 
         },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-sea-water/0.3"
+],
+"power": 2
+},
+            output: "project-b-sw/1",
+            craftTime: 50 
+        },
     ],
 
     requirements: [

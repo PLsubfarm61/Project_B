@@ -44,6 +44,6 @@ input: {
         "graphite/30",
         "electronic-circuit/5",
         "advanced-electronic-circuit/2",
-        "clay-brick/20",
+        "concrete-brick/20",
     ],
 }

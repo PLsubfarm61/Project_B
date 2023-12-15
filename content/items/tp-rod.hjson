@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "TP Rod",
+	description": ".",
+	cost: 3.0,
+	color: "ffff88"
+}

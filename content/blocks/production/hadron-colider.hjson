@@ -13,13 +13,13 @@
 "items": [
                 "project-b-magnetite/6",
                 "project-b-polonium/4",
-                "project-b-radliton/1",
+                "project-b-radliton/3",
 ],
 "power": 80,
             },
             output: { 
 "items": [
-                "project-b-wymritlium/5",
+                "project-b-wymritlium/2",
                 "project-b-nuclear-waste/12",
 ],
 },
@@ -39,15 +39,13 @@
     ]
 
     requirements: [
-        "lead/1500",
-        "graphite/1500",
+        "alloy/2000",
+        "duralumin/50",
         "concrete-brick/3000",
-        "silver/100",
         "metaglass/1000",
         "electro-magnet/1500",
         "cadmium/350",
         "electric-engine/150",
         "processor/150",
-        "silicon/600"
     ],
 }

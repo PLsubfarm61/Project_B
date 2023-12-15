@@ -1,7 +1,7 @@
 {
 	type: "material",
-	name: "Asteroid Stones",
+	name: "Aluminum",
 	description": ".",
 	cost: 3.0,
-	color: "778899"
+	color: "e1e3ed"
 }

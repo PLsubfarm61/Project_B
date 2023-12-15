@@ -1,0 +1,8 @@
+{
+	type: floor 
+        name:Sand Sea Water
+		liquidDrop: project-b-sea-water
+		status: wet
+		isLiquid: true
+        cacheLayer: water
+}

@@ -1,0 +1,125 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Mass Assembler MK II",
+
+    size: 3,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: {
+"items": [
+                "copper/12",
+                "project-b-silver/8",
+                "lead/4",
+]
+"power": 5
+            }
+            output: "project-b-electro-magnet/4",
+            craftTime: 80 
+        },
+        {
+            input: {
+"items": [
+                "copper/12",
+                "project-b-magnetite/4",
+                "lead/8",
+]
+"power": 5
+            }
+            output: "project-b-alternator/4",
+            craftTime: 190 
+        },
+        {
+            input: {
+"items": [
+                "project-b-silver/12",
+                "lead/4",
+                "project-b-cadmium/4",
+]
+"power": 5
+            }
+            output: "project-b-engine/4",
+            craftTime: 140 
+        },
+        {
+            input: {
+"items": [
+                "project-b-magnetite/8",
+                "project-b-electro-magnet/4",
+                "project-b-silver/12",
+],
+"fluids": [
+                "project-b-lubricant/0.4",
+],
+"power": 5
+            }
+            output: "project-b-electric-engine/4",
+            craftTime: 190 
+        },
+        {
+            input: {
+"items": [
+                "project-b-cadmium/12",
+                "silicon/4",
+                "project-b-engine/4",
+                "project-b-silver/8",
+                "project-b-micro-chip/8",
+],
+"fluids": [
+                "project-b-lubricant/0.4",
+],
+"power": 5
+            }
+            output: "project-b-jet-turbine/4",
+            craftTime: 260 
+        },
+        {
+            input: {
+"items": [
+                "lead/16",
+                "metaglass/4",
+],
+"power": 5
+            },
+            output: "project-b-barrel/4",
+            craftTime: 60 
+        },
+        {
+            input: {
+"items": [
+                "project-b-cadmium/4",
+                "project-b-silver/8",
+                "graphite/12",
+],
+"power": 5
+            },
+            output: "project-b-graphite-electrode/4",
+            craftTime: 180 
+        },
+        {
+            input: {
+"items": [
+                "coal/40",
+                "phase-fabric/16",
+                "project-b-plastic/20",
+],
+"power": 5
+            },
+            output: "project-b-heat-shield/4",
+            craftTime: 260 
+        },
+    ],
+
+    requirements: [
+        "silver/60",
+        "alloy/200",
+        "concrete-brick/150",
+        "electric-engine/20",
+        "processor/2",
+        "advanced-electronic-circuit/20",
+        "graphite-electrode/2"
+    ],
+}

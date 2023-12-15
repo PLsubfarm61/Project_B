@@ -23,7 +23,58 @@
                 "project-b-soupan/7",
                 "project-b-hypronite/5",
                 "project-b-diamond/3",
-                "project-b-asteroid-stones/3"
+                "project-b-crushed-asteroid/3"
+],
+            craftTime: 120 
+        },
+        {
+            input: {
+"fluids": [
+                "water/0.3",
+],
+"items": [
+                "project-b-bauxite-asteroid-chunk/3"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-aluminum/5",
+                "project-b-gold-oxide/3",
+                "silicon/2",
+                "project-b-crushed-bauxite-asteroid/3"
+],
+            craftTime: 180 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-washing-solution/0.3",
+],
+"items": [
+                "project-b-bauxite-asteroid-chunk/3"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-aluminum/12",
+                "scrap/1",
+                "project-b-crushed-asteroid/3"
+],
+            craftTime: 180 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-washing-solution/0.3",
+],
+"items": [
+                "project-b-crushed-asteroid/3"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-radliton/2",
+                "scrap/3",
 ],
             craftTime: 120 
         },
@@ -33,15 +84,15 @@
                 "project-b-washing-solution/0.3",
 ],
 "items": [
-                "project-b-asteroid-stones/3"
+                "project-b-crushed-bauxite-asteroid/3"
 ],
 "power": 3
 },
             output: [ 
-                "project-b-radliton/2",
-                "scrap/3",
+                "project-b-aluminum/2",
+                "project-b-ruby/3",
 ],
-            craftTime: 120 
+            craftTime: 180 
         },
     ],
 

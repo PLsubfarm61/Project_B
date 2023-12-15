@@ -1,0 +1,62 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "effect",
+    name: "Magnetic Distorter",
+
+    size: 2,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-tp-rod/1",
+],
+"power": 5,
+            },
+            output: { 
+"items": [
+                "project-b-stable-tp-fuel/1",
+],
+},
+            craftTime: 72000
+        },
+        {
+            input: {
+"items": [
+                "project-b-stable-tp-fuel/1",
+],
+"power": 5,
+            },
+            output: { 
+"items": [
+                "project-b-unstable-tp-fuel/1",
+],
+},
+            craftTime: 100000
+        },
+    ],
+
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 1.5
+        },
+    ]
+
+    requirements: [
+        "alloy/40",
+        "concrete-brick/20",
+        "duralumin/1",
+        "metaglass/20",
+        "electro-magnet/80",
+        "magnetite/150",
+        "electric-engine/10",
+        "processor/5",
+    ],
+}

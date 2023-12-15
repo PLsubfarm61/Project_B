@@ -118,6 +118,21 @@
             output: "project-b-explosives/2",
             craftTime: 160 
         },
+        {
+            input: {
+"fluids": [
+                "project-b-gasoline/0.3",
+                "project-b-nitric-acid/0.2",
+                "project-b-oxygen/0.5",
+],
+"items": [
+                "coal/3"
+],
+"power": 5.5
+},
+            output: "project-b-solid-fuel/3",
+            craftTime: 80 
+        },
     ],
 
     requirements: [

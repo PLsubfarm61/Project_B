@@ -10,10 +10,10 @@
         {
             input: {
 "items": [
-                "copper/5",
-                "project-b-silver/7",
-                "graphite/5",
-                "project-b-advanced-electronic-circuit/2",
+                "copper/10",
+                "project-b-silver/14",
+                "graphite/10",
+                "project-b-advanced-electronic-circuit/6",
 ],
 "power": 10
             },
@@ -66,11 +66,25 @@
         },
         {
             input: {
+"items": [
+                    "project-b-solid-fuel/400",
+                    "project-b-silver/600",
+                    "graphite/150",
+                    "silicon/50",
+                    "project-b-advanced-electronic-circuit/5",
+],
+"power": 10
+                },
+            output: "project-b-solid-fuel-rocket-booster/1",
+            craftTime: 3600 
+        },
+        {
+            input: {
 items: [
                     "titanium/150",
                     "graphite/100",
-                    "lead/60",
-                    "copper/100",
+                    "project-b-alloy/80",
+                    "project-b-heat-shield/30",
                     "project-b-processor/5",
 ],
 
@@ -81,6 +95,115 @@ fluids: [
                 },
             output: "project-b-asteroid-miner-mk-i/1",
             craftTime: 2000 
+        },
+        {
+            input: {
+items: [
+                    "titanium/150",
+                    "project-b-diamond/10",
+                    "project-b-alloy/80",
+                    "project-b-heat-shield/30",
+                    "project-b-processor/8",
+                    "project-b-rocket-engine/1",
+                    "project-b-explosives/12",
+],
+
+fluids: [
+                    "project-b-lubricant/0.3",
+],
+"power": 10
+                },
+            output: "project-b-asteroid-miner-mk-ii/1",
+            craftTime: 2000 
+        },
+        {
+            input: {
+items: [
+                    "project-b-diamond/25",
+                    "project-b-alloy/100",
+                    "project-b-heat-shield/30",
+                    "project-b-processor/12",
+                    "project-b-rocket-engine/1",
+                    "project-b-explosives/12",
+                    "silicon/12",
+                    "project-b-aluminum/6",
+                    "project-b-polonium/10",
+],
+
+fluids: [
+                    "project-b-lubricant/0.3",
+],
+"power": 10
+                },
+            output: "project-b-asteroid-miner-mk-iii/1",
+            craftTime: 2000 
+        },
+        {
+            input: {
+items: [
+                    "project-b-diamond/25",
+                    "project-b-alloy/40",
+                    "project-b-heat-shield/90",
+                    "project-b-processor/12",
+                    "project-b-rocket-engine/1",
+                    "project-b-explosives/12",
+                    "silicon/12",
+                    "project-b-aluminum/6",
+                    "project-b-polonium/10",
+],
+
+fluids: [
+                    "project-b-lubricant/0.3",
+],
+"power": 10
+                },
+            output: "project-b-asteroid-miner-mk-iv/1",
+            craftTime: 5000 
+        },
+        {
+            input: {
+items: [
+                    "project-b-scorched-asteroid-miner-mk-iv",
+                    "project-b-explosives/12",
+],
+
+fluids: [
+                    "project-b-washing-solution/0.2",
+],
+"power": 10
+                },
+            output: "project-b-asteroid-miner-mk-iv/1",
+            craftTime: 500 
+        },
+        {
+            input: {
+items: [
+                    "project-b-scorched-asteroid-miner-mk-v",
+                    "project-b-explosives/12",
+],
+
+fluids: [
+                    "project-b-washing-solution/0.2",
+],
+"power": 10
+                },
+            output: "project-b-asteroid-miner-mk-v/1",
+            craftTime: 500 
+        },
+        {
+            input: {
+items: [
+                    "project-b-scorched-asteroid-miner-mk-vi",
+                    "project-b-explosives/12",
+],
+
+fluids: [
+                    "project-b-washing-solution/0.2",
+],
+"power": 10
+                },
+            output: "project-b-asteroid-miner-mk-vi/1",
+            craftTime: 500 
         },
     ],
 

@@ -60,6 +60,32 @@
             output: "project-b-processor/1",
             craftTime: 320 
         },
+        {
+            input: {
+"items": [
+                "project-b-duralumin/2",
+                "titanium/1",
+                "project-b-micro-chip/2",
+                "project-b-gold-oxide/2",
+],
+"power": 5
+            }
+            output: "project-b-powerful-electronic-circuit/1",
+            craftTime: 280 
+        },
+        {
+            input: {
+"items": [
+                "project-b-hypronite/1",
+                "project-b-diamond/1",
+                "project-b-advanced-electronic-circuit/1",
+                "project-b-micro-chip/4",
+],
+"power": 5
+            }
+            output: "project-b-fast-electronic-circuit/1",
+            craftTime: 340 
+        },
     ],
 
     requirements: [

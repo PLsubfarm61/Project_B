@@ -1,0 +1,117 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Micro Assembler MK III",
+
+    size: 3,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: {
+"items": [
+                "copper/2",
+                "project-b-silver/1",
+                "lead/1",
+],
+"power": 5
+            },
+            output: "project-b-electronic-circuit/1",
+            craftTime: 15 
+        },
+        {
+            input: {
+"items": [
+                "project-b-electronic-circuit/1",
+                "project-b-gold-oxide/3",
+                "project-b-silver/1",
+]
+"power": 5
+            }
+            output: "project-b-advanced-electronic-circuit/1",
+            craftTime: 40 
+        },
+        {
+            input: {
+"items": [
+                "project-b-gold-oxide/3",
+                "project-b-advanced-electronic-circuit/1",
+                "project-b-plastic/1",
+]
+"power": 5
+            }
+            output: "project-b-micro-chip/2",
+            craftTime: 60 
+        },
+        {
+            input: {
+"items": [
+                "project-b-electronic-circuit/3",
+                "graphite/1",
+                "project-b-advanced-electronic-circuit/1",
+                "project-b-micro-chip/2",
+],
+"fluids": [
+                "project-b-sulfur-acid/0.1",
+],
+"power": 5
+            }
+            output: "project-b-processor/1",
+            craftTime: 70 
+        },
+        {
+            input: {
+"items": [
+                "project-b-duralumin/2",
+                "titanium/1",
+                "project-b-micro-chip/2",
+                "project-b-gold-oxide/2",
+],
+"power": 5
+            }
+            output: "project-b-powerful-electronic-circuit/1",
+            craftTime: 120 
+        },
+        {
+            input: {
+"items": [
+                "project-b-hypronite/1",
+                "project-b-diamond/1",
+                "project-b-advanced-electronic-circuit/1",
+                "project-b-micro-chip/4",
+],
+"power": 5
+            }
+            output: "project-b-fast-electronic-circuit/1",
+            craftTime: 160 
+        },
+        {
+            input: {
+"items": [
+                "project-b-wymritlium/1",
+                "project-b-superconductor/2",
+                "project-b-processor/1",
+                "project-b-fast-electronic-circuit/2",
+                "project-b-micro-chip/4",
+],
+"fluids": [
+                "project-b-hixybutkspium-acid/0.05",
+],
+"power": 5
+            }
+            output: "project-b-quantum-processor/1",
+            craftTime: 350 
+        },
+    ],
+
+    requirements: [
+        "aluminum/20",
+        "alloy/150",
+        "concrete-brick/150",
+        "electric-engine/10",
+        "processor/5",
+        "fast-electronic-circuit/4",
+        "gold/50"
+    ],
+}

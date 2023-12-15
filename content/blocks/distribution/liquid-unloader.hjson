@@ -246,6 +246,23 @@
     },
             craftTime: 50 
         },
+                {
+            input: {
+"items": [
+                "project-b-sw/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-sea-water/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
     ],
 
     requirements: [

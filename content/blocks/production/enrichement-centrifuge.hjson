@@ -47,12 +47,12 @@
                 "project-b-butylene/0.2",
 ],
 "items": [
-                "project-b-wymritlium/1"
+                "project-b-wymritlium/2"
 ],
 "power": 3.5
 },
             output: [ 
-                "project-b-hixybutkspium-acid/0.6",
+                "project-b-hixybutkspium-acid/0.4",
 ],
             craftTime: 360 
         },
