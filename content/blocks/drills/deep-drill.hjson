@@ -1,0 +1,152 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "production",
+    name: "Deep Drill",
+    rotate: true,
+    rotateDraw: false,
+    fluidOutputDirections: [1,2,3,4],
+    
+    size: 8,
+    health: 35,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-mining-pipe/1",
+],
+"fluids": [
+                "project-b-drilling-fluid/0.2"
+             ],
+"power": 5.5
+},
+            output: {
+                "fluids": [
+                "project-b-dirty-water/0.2"
+             ],
+                "items": [
+                "project-b-mud-rock/3"
+                "project-b-rock/6"
+                "project-b-sedimentary-rock/1"
+            ],
+            },
+            craftTime: 300 
+        },
+        {
+            input: {
+"items": [
+                "project-b-mining-pipe/1",
+],
+"fluids": [
+                "project-b-drilling-fluid/0.2"
+             ],
+"power": 5.5
+},
+            output: {
+                "fluids": [
+                "project-b-dirty-water/0.2"
+             ],
+                "items": [
+                "project-b-mud-rock/4"
+                "project-b-rock/3"
+                "project-b-sedimentary-rock/5"
+            ],
+            },
+            craftTime: 300 
+        },
+        {
+            input: {
+"items": [
+                "project-b-mining-pipe/1",
+],
+"fluids": [
+                "project-b-drilling-fluid/0.2"
+             ],
+"power": 5.5
+},
+            output: {
+                "fluids": [
+                "project-b-dirty-water/0.2"
+             ],
+                "items": [
+                "project-b-radioactive-rock/5"
+                "project-b-rock/3"
+                "project-b-sedimentary-rock/1"
+            ],
+            },
+            craftTime: 300 
+        },
+        {
+            input: {
+"items": [
+                "project-b-mining-pipe/1",
+],
+"fluids": [
+                "project-b-drilling-fluid/0.2"
+             ],
+"power": 5.5
+},
+            output: {
+                "fluids": [
+                "project-b-dirty-water/0.2"
+             ],
+                "items": [
+                "project-b-carbon-rock/6"
+                "project-b-mud-rock/2"
+                "project-b-sedimentary-rock/1"
+            ],
+            },
+            craftTime: 300 
+        },
+        {
+            input: {
+"items": [
+                "project-b-mining-pipe/1",
+],
+"fluids": [
+                "project-b-drilling-fluid/0.2"
+             ],
+"power": 5.5
+},
+            output: {
+                "fluids": [
+                "project-b-dirty-water/0.2"
+             ],
+                "items": [
+                "project-b-rich-rock/5"
+                "project-b-rock/3"
+                "project-b-sedimentary-rock/2"
+            ],
+            },
+            craftTime: 300 
+        },
+    ],
+
+    requirements: [
+        "concrete-brick/600",
+        "metaglass/150",
+        "electric-engine/200",
+        "advanced-electronic-circuit/70",
+        "powerful-electronic-circuit/3",
+        "alloy/350",
+        "silicon/100",
+        "duralumin/50",
+        "diamond/10",
+    ],
+
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 1
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-top"
+        }
+    ]
+}

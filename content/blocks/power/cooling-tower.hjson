@@ -3,6 +3,7 @@
     category: "power",
     name: "Cooling Tower",
     craftEffect: "drillSteam",
+    hasLiquids: "true",
 
     size: 5,
     health: 900,
@@ -12,19 +13,19 @@
         {
             input: {
 "fluids": [
-                "project-b-steam-hi/0.2",
+                "project-b-steam-hi/0.4",
 ],
             },
-            output: "water/0.6",
+            output: "water/0.2",
             craftTime: 100 
         },
         {
             input: {
 "fluids": [
-                "project-b-steam/0.2",
+                "project-b-steam/0.4",
 ],
             },
-            output: "water/0.4",
+            output: "water/0.2",
             craftTime: 100 
         },
         {
@@ -33,7 +34,7 @@
                 "project-b-steam-lo/0.4",
 ],
             },
-            output: "water/0.4",
+            output: "water/0.2",
             craftTime: 100 
         },
     ],

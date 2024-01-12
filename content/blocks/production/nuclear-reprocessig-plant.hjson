@@ -30,7 +30,7 @@
     ],
 
     requirements: [
-        "graphite/50",
+        "alloy/60",
         "concrete-brick/100",
         "silver/30",
         "metaglass/100",

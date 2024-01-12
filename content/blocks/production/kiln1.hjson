@@ -18,6 +18,20 @@ input: {
                 "coal/3",
 ],
 "fluids": [
+                "project-b-dirty-water/0.3",
+],
+            },
+            output: "project-b-clay-brick/2",
+            craftTime: 240 
+        },
+{
+input: {
+"items": [
+                "project-b-clay/5",
+                "project-b-gravel/2",
+                "coal/3",
+],
+"fluids": [
                 "water/0.1",
 ],
             },

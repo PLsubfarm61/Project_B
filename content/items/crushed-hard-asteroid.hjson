@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Crushed Hard Asteroid",
+	description": ".",
+	cost: 3.0,
+	color: "b62eff"
+}

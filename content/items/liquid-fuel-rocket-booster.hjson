@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Liquid Fuel Rocket Booster",
+	description": ".",
+	cost: 3.0,
+	color: "e1e3ed"
+}

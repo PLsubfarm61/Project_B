@@ -133,6 +133,31 @@
             output: "project-b-solid-fuel/3",
             craftTime: 80 
         },
+        {
+            input: {
+"fluids": [
+                "project-b-dirty-water/0.8",
+                "project-b-chlorine/0.2",
+],
+"items": [
+                "coal/8",
+],
+"power": 5.5
+},
+            output: "water/0.7",
+            craftTime: 80 
+        },
+        {
+            input: {
+"fluids": [
+                "water/6.2"
+             ],
+"power": 5.5
+},
+            output: "project-b-deuterium/0.3",
+            craftTime: 80 
+        },
+
     ],
 
     requirements: [

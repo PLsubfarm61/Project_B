@@ -1,0 +1,106 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "production",
+    name: "Pumpjack",
+    rotate: true,
+    rotateDraw: false,
+    fluidOutputDirections: [1,2,3,4],
+    
+    size: 9,
+    health: 35,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"fluids": [
+                "project-b-drilling-fluid/1.0"
+             ],
+"power": 5.5
+},
+            output: [
+            "oil/0.7",
+            "project-b-natural-gas/0.6",
+            ],
+            craftTime: 80 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-drilling-fluid/2.0"
+             ],
+"power": 5.5
+},
+            output: [
+            "oil/1.4",
+            "project-b-natural-gas/1.2",
+            ],
+            craftTime: 100 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-drilling-fluid/3.0"
+             ],
+"power": 5.5
+},
+            output: [
+            "oil/2.1",
+            "project-b-natural-gas/1.8",
+            ],
+            craftTime: 120 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-drilling-fluid/6.0"
+             ],
+"power": 5.5
+},
+            output: [
+            "oil/4.2",
+            "project-b-natural-gas/3.6",
+            ],
+            craftTime: 150 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-drilling-fluid/0.7"
+             ],
+"power": 5.5
+},
+            output: [
+            "water/0.7",
+            ],
+            craftTime: 80 
+        },
+    ],
+
+    requirements: [
+        "concrete-brick/800",
+        "metaglass/200",
+        "electric-engine/120",
+        "advanced-electronic-circuit/70",
+        "fast-electronic-circuit/3",
+        "alloy/300",
+        "silicon/100",
+        "duralumin/50",
+        "mining-pipe/50",
+    ],
+
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 1
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-top"
+        }
+    ]
+}

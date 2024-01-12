@@ -8,9 +8,19 @@
     itemDuration: 120,
 
     consumes: {
-    liquid: "steam/0.2"
+    liquid: "steam-lo/0.2"
 },
-    outputLiquid: "steam-lo/0.2"
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 3
+        },
+    ]
+    outputLiquid: "steam/0.2"
     requirements: [
         "advanced-electronic-circuit/10",
         "graphite/50",

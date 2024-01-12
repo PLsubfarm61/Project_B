@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Rock",
+	description": ".",
+	cost: 3.0,
+	color: "a3a3a3"
+}

@@ -1,0 +1,9 @@
+  {
+  "type": "CellLiquid",
+  "capPuddles": true,
+  "name": "Drilling Fluid",
+  "description": "."
+  "color": "c9b6b6",
+  "colorFrom": "efe1e1",
+  "colorTo": "9d8f8ff",
+}

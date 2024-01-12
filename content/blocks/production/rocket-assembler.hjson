@@ -54,6 +54,20 @@
         {
             input: {
 "items": [
+                    "project-b-rocket-engine/5",
+                    "project-b-aluminum/50",
+                    "project-b-alloy/350",
+                    "metaglass/300",
+                    "project-b-processor/10",
+],
+"power": 10
+                },
+            output: "project-b-stage-1-mk-ii/1",
+            craftTime: 3600 
+        },
+        {
+            input: {
+"items": [
                     "project-b-silver/100",
                     "graphite/100",
                     "lead/20",
@@ -62,6 +76,19 @@
 "power": 10
                 },
             output: "project-b-fairing-mk-i/1",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+                    "project-b-silver/200",
+                    "graphite/200",
+                    "lead/40",
+                    "project-b-advanced-electronic-circuit/10",
+],
+"power": 10
+                },
+            output: "project-b-fairing-mk-ii/1",
             craftTime: 600 
         },
         {
@@ -163,6 +190,49 @@ fluids: [
         {
             input: {
 items: [
+                    "project-b-diamond/25",
+                    "project-b-alloy/40",
+                    "project-b-heat-shield/90",
+                    "project-b-processor/12",
+                    "project-b-rocket-engine/1",
+                    "project-b-explosives/12",
+                    "project-b-vibranium/7",
+                    "project-b-aluminum/12",
+                    "project-b-polonium/10",
+],
+
+fluids: [
+                    "project-b-lubricant/0.3",
+],
+"power": 10
+                },
+            output: "project-b-asteroid-miner-mk-v/1",
+            craftTime: 5000 
+        },
+        {
+            input: {
+items: [
+                    "project-b-vibranium/25",
+                    "project-b-alloy/40",
+                    "project-b-heat-shield/120",
+                    "project-b-processor/20",
+                    "project-b-explosives/12",
+                    "project-b-duralumin/20",
+],
+
+fluids: [
+                    "project-b-lubricant/0.3",
+                    "project-b-deuterium/0.4",
+                    "project-b-tritium/0.4",
+],
+"power": 10
+                },
+            output: "project-b-asteroid-miner-mk-vi/1",
+            craftTime: 5000 
+        },
+        {
+            input: {
+items: [
                     "project-b-scorched-asteroid-miner-mk-iv",
                     "project-b-explosives/12",
 ],
@@ -205,16 +275,42 @@ fluids: [
             output: "project-b-asteroid-miner-mk-vi/1",
             craftTime: 500 
         },
+        {
+            input: {
+items: [
+                    "project-b-scorched-stage-1-mk-ii",
+],
+
+fluids: [
+                    "project-b-washing-solution/0.4",
+],
+"power": 10
+                },
+            output: "project-b-stage-1-mk-ii/1",
+            craftTime: 1000 
+        },
+        {
+            input: {
+items: [
+                    "project-b-scorched-liquid-fuel-rocket-booster",
+],
+
+fluids: [
+                    "project-b-washing-solution/0.4",
+],
+"power": 10
+                },
+            output: "project-b-liquid-fuel-rocket-booster/1",
+            craftTime: 1000 
+        },
     ],
 
     requirements: [
         "silicon/300",
         "silver/100",
-        "copper/250",
-        "graphite/200",
+        "alloy/950",
         "concrete-brick/200"
         "electric-engine/150",
-        "lead/600",
         "processor/5",
         "advanced-electronic-circuit/100",
         "metaglass/50",

@@ -20,8 +20,6 @@ description:
 [[]green]========================================
 '''
 version: "0"
-dependencies: [
-  multi-crafter
-],
+dependencies: ["multi-crafter"]
 minGameVersion: 136
 }

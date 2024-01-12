@@ -7,7 +7,7 @@
     size: 3,
     health: 900,
 
-    menu: "detailed",
+    menu: "simple",
     recipes: [
         {
             input: {
@@ -42,6 +42,23 @@
                 "project-b-gold-oxide/3",
                 "silicon/2",
                 "project-b-crushed-bauxite-asteroid/3"
+],
+            craftTime: 180 
+        },
+        {
+            input: {
+"fluids": [
+                "water/0.3",
+],
+"items": [
+                "project-b-hard-asteroid-chunk/3"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-hypronite/10",
+                "project-b-diamond/1",
+                "project-b-crushed-hard-asteroid/3"
 ],
             craftTime: 180 
         },
@@ -94,6 +111,125 @@
 ],
             craftTime: 180 
         },
+        {
+            input: {
+"fluids": [
+                "project-b-washing-solution/0.3",
+],
+"items": [
+                "project-b-crushed-hard-asteroid/3"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-vibranium/2",
+                "project-b-ruby/3",
+                "project-b-diamond/4",
+],
+            craftTime: 180 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-washing-solution/0.3",
+],
+"items": [
+                "project-b-rich-rock/1"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-diamond/2",
+                "project-b-gold/3",
+                "project-b-hypronite/1",
+],
+            craftTime: 80 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-washing-solution/0.3",
+],
+"items": [
+                "project-b-radioactive-rock/1"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-enriched-uranium/2",
+                "thorium/3",
+                "project-b-polonium/1",
+],
+            craftTime: 80 
+        },
+        {
+            input: {
+"fluids": [
+                "water/0.3",
+],
+"items": [
+                "project-b-rock/1"
+],
+"power": 3
+},
+            output: [ 
+                "copper/5",
+                "lead/4",
+                "titanium/3",
+                "project-b-silver/3",
+],
+            craftTime: 80 
+        },
+        {
+            input: {
+"fluids": [
+                "water/0.3",
+],
+"items": [
+                "project-b-carbon-rock/1"
+],
+"power": 3
+},
+            output: [ 
+                "coal/8",
+                "project-b-bitumen/3",
+],
+            craftTime: 80 
+        },
+        {
+            input: {
+"fluids": [
+                "water/0.3",
+],
+"items": [
+                "project-b-sedimentary-rock/1"
+],
+"power": 3
+},
+            output: [ 
+                "silicon/5",
+                "project-b-sulfur/5",
+                "project-b-aluminum/2",
+],
+            craftTime: 80 
+        },
+        {
+            input: {
+"fluids": [
+                "water/0.3",
+],
+"items": [
+                "project-b-mud-rock/1"
+],
+"power": 3
+},
+            output: [ 
+                "sand/4",
+                "project-b-gravel/5",
+                "project-b-clay/7",
+],
+            craftTime: 80 
+        },
     ],
 
     requirements: [
@@ -105,6 +241,6 @@
         "metaglass/100",
         "electronic-circuit/12",
         "advanced-electronic-circuit/5",
-        "cadmium/10",
+        "cadmium/30",
     ],
 }

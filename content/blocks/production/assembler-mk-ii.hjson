@@ -154,6 +154,18 @@
         {
             input: {
 "items": [
+                "metaglass/5",
+                "lead/5",
+                "project-b-cadmium/5",
+],
+"power": 5
+            },
+            output: "project-b-mining-pipe/1",
+            craftTime: 260 
+        },
+        {
+            input: {
+"items": [
                 "coal/10",
                 "phase-fabric/4",
                 "project-b-plastic/5",

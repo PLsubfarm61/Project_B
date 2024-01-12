@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Mud Rock",
+	description": ".",
+	cost: 3.0,
+	color: "61290e"
+}

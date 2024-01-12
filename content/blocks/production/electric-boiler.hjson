@@ -12,21 +12,21 @@
         {
             input: {
 "fluids": [
-                "oil/0.3"
+                "oil/0.9"
 ]
 "power": 5.5
             },
-            output: "project-b-hot-oil/0.3",
+            output: "project-b-hot-oil/0.9",
             craftTime: 80 
         },
         {
             input: {
 "fluids": [
-                "water/0.3"
+                "water/0.9"
 ]
 "power": 5.5
             }
-            output: "project-b-steam/0.3",
+            output: "project-b-steam/0.9",
             craftTime: 80 
         }
     ],

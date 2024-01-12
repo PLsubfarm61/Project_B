@@ -5,7 +5,7 @@
     size: 11,
     health: 900,
 
-    menu: "Detailed",
+    menu: "simple",
     recipes: [
         {
             input: {
@@ -167,9 +167,95 @@ fluids: [
             output: [
                 "project-b-asteroid-chunk/34",
                 "project-b-bauxite-asteroid-chunk/23",
+                "project-b-hard-asteroid-chunk/3",
                 "project-b-crushed-asteroid/22",
                 "project-b-crushed-bauxite-asteroid/10",
+                "project-b-crushed-hard-asteroid/5",
                 "project-b-scorched-asteroid-miner-mk-iv/1",
+],
+            craftTime: 28800 
+        },
+                {
+            input: {
+items: [
+                "project-b-fairing-mk-i/1",
+                "project-b-asteroid-miner-mk-v/1",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-ii/1",
+                "project-b-liquid-fuel-rocket-booster/2",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/1.8",
+                "project-b-liquid-hydrogen/1.8",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/39",
+                "project-b-bauxite-asteroid-chunk/27",
+                "project-b-hard-asteroid-chunk/5",
+                "project-b-crushed-asteroid/27",
+                "project-b-crushed-bauxite-asteroid/15",
+                "project-b-crushed-hard-asteroid/7",
+                "project-b-scorched-stage-1-mk-ii/1",
+                "project-b-scorched-liquid-fuel-rocket-booster/2",
+                "project-b-scorched-asteroid-miner-mk-v/1",
+],
+            craftTime: 28800 
+        },
+                {
+            input: {
+items: [
+                "project-b-fairing-mk-i/1",
+                "project-b-asteroid-miner-mk-vi/1",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-ii/1",
+                "project-b-liquid-fuel-rocket-booster/2",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/1.8",
+                "project-b-liquid-hydrogen/1.8",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/48",
+                "project-b-bauxite-asteroid-chunk/33",
+                "project-b-hard-asteroid-chunk/7",
+                "project-b-crushed-asteroid/34",
+                "project-b-crushed-bauxite-asteroid/19",
+                "project-b-crushed-hard-asteroid/9",
+                "project-b-scorched-stage-1-mk-ii/1",
+                "project-b-scorched-liquid-fuel-rocket-booster/2",
+                "project-b-scorched-asteroid-miner-mk-vi/1",
+],
+            craftTime: 28800 
+        },
+                {
+            input: {
+items: [
+                "project-b-fairing-mk-ii/1",
+                "project-b-asteroid-miner-mk-vi/2",
+                "project-b-stage-2-mk-i/1",
+                "project-b-stage-1-mk-ii/1",
+                "project-b-liquid-fuel-rocket-booster/2",
+],
+
+fluids: [
+                "project-b-liquid-oxygen/1.8",
+                "project-b-liquid-hydrogen/1.8",
+],
+            },
+            output: [
+                "project-b-asteroid-chunk/96",
+                "project-b-bauxite-asteroid-chunk/66",
+                "project-b-hard-asteroid-chunk/14",
+                "project-b-crushed-asteroid/68",
+                "project-b-crushed-bauxite-asteroid/38",
+                "project-b-crushed-hard-asteroid/18",
+                "project-b-scorched-stage-1-mk-ii/1",
+                "project-b-scorched-liquid-fuel-rocket-booster/2",
+                "project-b-scorched-asteroid-miner-mk-vi/2",
 ],
             craftTime: 28800 
         },

@@ -3,6 +3,9 @@
     category: "crafting",
     name: "Electrolizer",
     updateEffect: "hitLancer",
+    rotate: true,
+    rotateDraw: false,
+    fluidOutputDirections: [1,2,3,4],
 
     size: 4,
     health: 900,
@@ -12,21 +15,26 @@
         {
             input: {
 "fluids": [
-            "water/0.3"
+            "water/0.6"
 ],
 "power": 6
             },
-            output: "project-b-oxygen/0.6",
+            output: [
+                "project-b-oxygen/0.6",
+                "project-b-hydrogen2/0.6",
+            ],
             craftTime: 100 
         },
         {
             input: {
 "fluids": [
-            "water/0.3"
+            "project-b-brine/0.5"
 ],
 "power": 6
             },
-            output: "project-b-hydrogen2/0.6",
+            output: [
+                "project-b-chlorine/0.3",
+            ],
             craftTime: 100 
         },
         {

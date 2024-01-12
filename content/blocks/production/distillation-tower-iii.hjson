@@ -1,0 +1,28 @@
+{
+    type: "GenericCrafter",
+    category: "crafting",
+    name: "Distillation Tower [III]",
+    rotate: true,
+    rotateDraw: false,
+    liquidOutputDirections: [1,2,3,4],
+
+      "consumes": {
+         "liquids": [
+         light-oil/0.6,
+         steam/0.2,
+    ],
+  },
+
+    outputLiquids: [gasoline/0.2,lpg-gas/0.4,kerosene/0.3,],
+
+    size: 5,
+    health: 900,
+
+    requirements: [
+        "lead/250",
+        "clay-brick/100",
+        "copper/100",
+        "metaglass/50",
+        "silver/50",
+    ],
+}

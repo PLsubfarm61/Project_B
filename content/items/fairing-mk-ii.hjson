@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Fairing MK II",
+	description": ".",
+	cost: 3.0,
+	color: "e1e3ed"
+}

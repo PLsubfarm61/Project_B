@@ -263,6 +263,57 @@
     },
             craftTime: 50 
         },
+                {
+            input: {
+"items": [
+                "project-b-mo/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-medium-oil/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+                {
+            input: {
+"items": [
+                "project-b-lo1/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-light-oil/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
+                {
+            input: {
+"items": [
+                "project-b-df/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-drilling-fluid/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
     ],
 
     requirements: [

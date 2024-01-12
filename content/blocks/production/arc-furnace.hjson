@@ -16,7 +16,7 @@
                 "lead/12",
                 "graphite/12",
 ],
-"power": 8.3
+"power": 10
             },
             output: "project-b-alloy/12",
             craftTime: 400 
@@ -29,7 +29,7 @@
                 "copper/12",
                 "silicon/12",
 ],
-"power": 8.3
+"power": 10
             },
             output: "project-b-duralumin/12",
             craftTime: 400 

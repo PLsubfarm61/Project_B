@@ -2,6 +2,9 @@
     type: "multicraft.MultiCrafter",
     category: "power",
     name: "Research Reactor",
+    rotate: true,
+    rotateDraw: false,
+    fluidOutputDirections: [1,2,3,4],
 
     size: 8,
     health: 900,
@@ -25,7 +28,51 @@
                 "project-b-polonium/12"
 ],
 "fluids": [
-                "project-b-steam/0.8",
+                "project-b-steam-lo/0.6",
+],
+},
+            craftTime: 120 
+},
+{
+            input: {
+"items": [
+                "project-b-polonium-fuel-rod/1",
+                "lead/52",
+],
+"fluids": [
+                "water/0.6",
+],
+"power": 5
+            },
+            output: { 
+"items": [
+                "project-b-depleted-polonium-fuel-rod/1",
+                "project-b-polonium/28"
+],
+"fluids": [
+                "project-b-steam-lo/0.6",
+],
+},
+            craftTime: 120 
+},
+{
+            input: {
+"items": [
+                "project-b-polonium-fuel-rod/1",
+                "project-b-lithium/30",
+],
+"fluids": [
+                "water/0.6",
+],
+"power": 5
+            },
+            output: { 
+"items": [
+                "project-b-depleted-polonium-fuel-rod/1",
+],
+"fluids": [
+                "project-b-steam-lo/0.6",
+                "project-b-tritium/1.0",
 ],
 },
             craftTime: 120 

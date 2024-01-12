@@ -4,6 +4,9 @@
     name: "Electric Kiln",
     updateEffect: "ventSteam",
     updateEffectChance: "0.02",
+    rotate: true,
+    rotateDraw: false,
+    fluidOutputDirections: [1,2,3,4],
 
     size: 3,
     health: 240,
@@ -35,6 +38,21 @@ input: {
             },
             output: "project-b-concrete-brick/3",
             craftTime: 200 
+        },
+        {
+            input: {
+"fluids": [
+                "project-b-sea-water/0.5",
+],
+"power": 5.5
+},
+            output: {
+            "fluids": [
+                "water/0.3",
+                "project-b-brine/0.2",
+            ],
+            },
+            craftTime: 80 
         },
 ],
 

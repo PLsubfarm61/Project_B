@@ -2,59 +2,110 @@
     type: "multicraft.MultiCrafter",
     category: "crafting",
     name: "Cracking Tower",
+    rotate: true,
+    rotateDraw: false,
+    fluidOutputDirections: [1,2,3,4],
 
     size: 5,
     health: 900,
+
 
     menu: "Detailed",
     recipes: [
         {
             input: [
                 "project-b-steam/0.4",
-                "project-b-kerosene/0.3"
+                "project-b-kerosene/0.5"
             ],
             output: [
-                "project-b-ethylene/0.4",
-            ],
-            craftTime: 80 
-        },
-        {
-            input: [
-                "project-b-steam/0.4",
-                "project-b-kerosene/0.3"
-            ],
-            output: [
+                "project-b-ethylene/0.6",
                 "project-b-propylene/0.4",
+                "project-b-butylene/0.2"
             ],
+        
             craftTime: 80 
         },
         {
             input: [
-                "project-b-steam/0.4",
-                "project-b-kerosene/0.3"
+                "project-b-steam/0.8",
+                "project-b-bitumen/8"
             ],
             output: [
-                "project-b-butylene/0.4"
+                "project-b-gasoline/0.3"
             ],
             craftTime: 80 
         },
         {
             input: [
-                "project-b-steam/0.4",
-                "project-b-bitumen/4"
+                "project-b-kerosene/0.3",
+                "project-b-steam/0.1"
             ],
             output: [
-                "project-b-gasoline/0.1"
+                "project-b-gasoline/0.4"
             ],
             craftTime: 80 
         },
         {
             input: [
-                "project-b-steam/0.4",
-                "project-b-natural-gas/0.3"
+                "project-b-steam/0.3",
+                "project-b-natural-gas/0.4"
             ],
             output: [
                 "project-b-gasoline/0.2"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                "project-b-oxygen/0.3",
+                "project-b-lpg-gas/0.4"
+            ],
+            output: [
+                "project-b-diesel/0.3"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                "project-b-heavy-oil/0.3",
+                "project-b-hydrogen2/0.3"
+            ],
+            output: [
+                "project-b-diesel/0.3"
+                "project-b-lpg-gas/0.1"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                "project-b-heavy-oil/0.3",
+                "project-b-hydrogen2/0.3"
+            ],
+            output: [
+                "project-b-kerosene/0.2"
+                "project-b-lpg-gas/0.2"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                "project-b-lpg-gas/0.4",
+                "project-b-oxygen/0.2"
+            ],
+            output: [
+                "project-b-diesel/0.3"
+                "water/0.05"
+            ],
+            craftTime: 80 
+        },
+        {
+            input: [
+                "project-b-gasoline/0.4",
+                "project-b-steam/0.2"
+            ],
+            output: [
+                "project-b-diesel/0.2"
+                "lpg-gas/0.05"
             ],
             craftTime: 80 
         },

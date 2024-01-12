@@ -50,9 +50,8 @@ input: {
 ],
 
     requirements: [
-        "copper/50",
+        "alloy/150",
         "cadmium/100",
-        "graphite/80",
         "electric-engine/5",
         "processor/1",
         "advanced-electronic-circuit/10",
