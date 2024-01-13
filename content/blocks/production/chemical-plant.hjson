@@ -149,6 +149,20 @@
         },
         {
             input: {
+"items": [
+                "project-b-clay/1",
+],
+"fluids": [
+                "water/0.2"
+                "project-b-lubricant/0.3"
+             ],
+"power": 5.5
+},
+            output: "project-b-deuterium/0.5",
+            craftTime: 100 
+        },
+        {
+            input: {
 "fluids": [
                 "water/6.2"
              ],
