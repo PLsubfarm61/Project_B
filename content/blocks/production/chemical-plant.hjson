@@ -171,6 +171,16 @@
             output: "project-b-deuterium/0.3",
             craftTime: 80 
         },
+        {
+            input: {
+"fluids": [
+                "project-b-natural-gas/0.7"
+             ],
+"power": 5.5
+},
+            output: "project-b-helium/0.4",
+            craftTime: 160 
+        },
 
     ],
 

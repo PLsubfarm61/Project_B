@@ -241,6 +241,19 @@
             output: "project-b-df/1",
             craftTime: 50 
         },
+       {
+            input: {
+"items": [
+                "project-b-barrel/1"
+],
+"fluids": [
+                "project-b-liquid-sodium/0.3"
+],
+"power": 2
+},
+            output: "project-b-ls/1",
+            craftTime: 50 
+        },
     ],
 
     requirements: [

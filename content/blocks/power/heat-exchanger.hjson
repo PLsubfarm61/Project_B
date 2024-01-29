@@ -1,0 +1,53 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "power",
+    name: "Heat Exchanger",
+    hasLiquids: "true",
+    rotate: true,
+    rotateDraw: false,
+    fluidOutputDirections: [1,2,3,4],
+
+    size: 2,
+    health: 900,
+
+    menu: Transform",
+    recipes: [
+        {
+            input: {
+"fluids": [
+                "water/0.4",
+                "project-b-hot-liquid-sodium/0.3",
+],
+            },
+            output: {
+    "fluids": [
+            "project-b-steam-su/0.4",
+            "project-b-liquid-sodium/0.3",
+    ],
+            },
+            craftTime: 100 
+        },
+        {
+            input: {
+"fluids": [
+                "water/0.4",
+                "project-b-hot-helium/0.3",
+],
+            },
+            output: {
+    "fluids": [
+            "project-b-steam-hi/0.4",
+            "project-b-helium/0.3",
+    ],
+            },
+            craftTime: 100 
+        },
+    ],
+
+    requirements: [
+        "concrete-brick/40",
+        "silver/50",
+        "metaglass/20",
+        "copper/20",
+    ],
+}

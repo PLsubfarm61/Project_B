@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "TRISO Fuel",
+	description": ".",
+	cost: 3.0,
+	color: "484848"
+}

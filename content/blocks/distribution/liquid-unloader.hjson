@@ -314,6 +314,23 @@
     },
             craftTime: 50 
         },
+                {
+            input: {
+"items": [
+                "project-b-ls/1"
+],
+"power": 2
+},
+            output: {
+"fluids": [
+                "project-b-liquid-sodium/0.3"
+],
+"items": [
+                "project-b-barrel/1"
+],
+    },
+            craftTime: 50 
+        },
     ],
 
     requirements: [

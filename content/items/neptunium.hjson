@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Neptunium",
+	description": ".",
+	cost: 3.0,
+	color: "7ca5ff"
+}

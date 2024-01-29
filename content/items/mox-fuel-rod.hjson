@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "MOX Fuel Rod",
+	description": ".",
+	cost: 3.0,
+	color: "9fd6be"
+}

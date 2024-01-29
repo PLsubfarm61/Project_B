@@ -1,6 +1,6 @@
 {
 	type: "material",
-	name: "Depleleted Plutonium Fuel Rod",
+	name: "Depleted Plutonium Fuel Rod",
 	description": ".",
 	cost: 3.0,
 	color: "0000FF"

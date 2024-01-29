@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Fission Product",
+	description": ".",
+	cost: 3.0,
+	color: "#a3b8ff"
+}

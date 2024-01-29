@@ -56,6 +56,22 @@
 ],
             craftTime: 360 
         },
+        {
+            input: {
+"fluids": [
+                "project-b-sulfur-acid/0.1",
+],
+"items": [
+                "project-b-fbr-fuel/5",
+                "project-b-neptunium/2",
+],
+"power": 3.5
+},
+            output: [ 
+                "project-b-enriched-fbr-fuel/3",
+],
+            craftTime: 600 
+        },
 ],
 
 
@@ -84,6 +100,11 @@ drawer: {
     { 
       type: DrawRegion
       suffix: -3
+    }
+    // for recipe 3
+    { 
+      type: DrawRegion
+      suffix: -4
     }
   ]
 }

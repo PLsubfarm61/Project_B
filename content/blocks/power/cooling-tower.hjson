@@ -13,6 +13,15 @@
         {
             input: {
 "fluids": [
+                "project-b-steam-su/0.4",
+],
+            },
+            output: "water/0.2",
+            craftTime: 100 
+        },
+        {
+            input: {
+"fluids": [
                 "project-b-steam-hi/0.4",
 ],
             },
@@ -22,7 +31,7 @@
         {
             input: {
 "fluids": [
-                "project-b-steam/0.4",
+                "project-b-steam-lo/0.4",
 ],
             },
             output: "water/0.2",
@@ -31,7 +40,7 @@
         {
             input: {
 "fluids": [
-                "project-b-steam-lo/0.4",
+                "project-b-steam/0.4",
 ],
             },
             output: "water/0.2",

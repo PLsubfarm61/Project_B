@@ -31,6 +31,26 @@
         {
             input: {
 "items": [
+                "project-b-mox-fuel-rod/2",
+],
+"fluids": [
+                "water/1.5",
+],
+"power": 5
+            },
+            output: { 
+"items": [
+                "project-b-depleted-mox-fuel-rod/2",
+],
+"fluids": [
+                "project-b-steam-hi/1.5",
+],
+},
+            craftTime: 120 
+        },
+        {
+            input: {
+"items": [
                 "project-b-plutonium-fuel-rod/2",
 ],
 "fluids": [
@@ -44,26 +64,6 @@
 ],
 "fluids": [
                 "project-b-steam-hi/2.5",
-],
-},
-            craftTime: 120 
-        },
-        {
-            input: {
-"items": [
-                "project-b-polonium-fuel-rod/2",
-],
-"fluids": [
-                "water/1.4",
-],
-"power": 5
-            },
-            output: { 
-"items": [
-                "project-b-depleted-polonium-fuel-rod/2",
-],
-"fluids": [
-                "project-b-steam-hi/1.4",
 ],
 },
             craftTime: 120 

@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Uranium Carbide",
+	description": ".",
+	cost: 3.0,
+	color: "a1b8a1"
+}

@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Depleted Nuclear Fuel Waste",
+	description": ".",
+	cost: 3.0,
+	color: "ffbb33"
+}

@@ -15,7 +15,7 @@
 ],
 "power": 4
             },
-            output: "project-b-oxygen/0.3",
+            output: "project-b-oxygen/0.4",
             craftTime: 100 
         },
         {
@@ -33,7 +33,16 @@
 ],
 "power": 4
             },
-            output: "project-b-nitrogen1/0.2",
+            output: "project-b-nitrogen1/0.7",
+            craftTime: 100 
+        },
+        {
+            input: {
+"items": [
+],
+"power": 4
+            },
+            output: "project-b-carbon-dioxide/0.2",
             craftTime: 100 
         },
 

@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "[FBR] Plutonium Rod",
+	description": ".",
+	cost: 3.0,
+	color: "8f9ff5ff"
+}

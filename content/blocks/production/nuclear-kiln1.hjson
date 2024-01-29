@@ -12,18 +12,18 @@
 {
 input: {
 "items": [
-                "project-b-clay/45",
-                "project-b-gravel/18",
+                "project-b-clay/135",
+                "project-b-gravel/54",
                 "project-b-uranium-fuel-rod/1",
 ],
 "fluids": [
-                "water/0.9",
+                "water/2.7",
 ],
 "power": 5.5,
             },
             output: {
 "items": [
-"project-b-clay-brick/18",
+"project-b-clay-brick/54",
 "project-b-depleted-uranium-fuel-rod/1",
 ],
 },
@@ -35,13 +35,13 @@ input: {
                 "project-b-uranium-fuel-rod/1",
 ],
 "fluids": [
-                "project-b-liquid-concrete/0.9",
+                "project-b-liquid-concrete/2.7",
 ],
 "power": 5.5,
             },
             output: {
 "items": [
-"project-b-concrete-brick/27",
+"project-b-concrete-brick/81",
 "project-b-depleted-uranium-fuel-rod/1",
 ],
 },

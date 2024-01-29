@@ -1,0 +1,47 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "power",
+    name: "HTG Reactor",
+    rotate: true,
+    rotateDraw: false,
+    fluidOutputDirections: [1,2,3,4],
+
+    size: 8,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+{
+            input: {
+"items": [
+                "project-b-triso-fuel/4",
+],
+"fluids": [
+                "project-b-helium/0.3",
+],
+"power": 3
+            },
+            output: { 
+"items": [
+                "project-b-fission-product/1",
+],
+"fluids": [
+                "project-b-hot-helium/0.3",
+],
+},
+            craftTime: 120 
+},
+      ],
+
+    requirements: [
+        "lead/400",
+        "graphite/400",
+        "silver/40",
+        "metaglass/500",
+        "concrete-brick/300"
+        "advanced-electronic-circuit/35",
+        "electric-engine/5",
+        "processor/1",
+        "silicon/150"
+    ],
+}

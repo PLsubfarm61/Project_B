@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "FBR Fuel",
+	description": ".",
+	cost: 3.0,
+	color: "4d96ce"
+}

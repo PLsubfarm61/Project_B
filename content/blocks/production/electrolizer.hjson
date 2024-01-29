@@ -33,7 +33,8 @@
 "power": 6
             },
             output: [
-                "project-b-chlorine/0.3",
+                "project-b-chlorine/0.4",
+                "project-b-liquid-sodium/0.4",
             ],
             craftTime: 100 
         },

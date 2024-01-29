@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Depleted Plutonium Oxide",
+	description": ".",
+	cost: 3.0,
+	color: "8caab5"
+}

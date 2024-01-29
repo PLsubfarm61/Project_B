@@ -1,0 +1,37 @@
+{
+    type: "ConsumeGenerator",
+    category: "power",
+    name: "Super Pressure Steam Turbine",
+    size: 6,
+    health: 900,
+    powerProduction: 120,
+    itemDuration: 120,
+
+    consumes: {
+    liquid: "steam-su/0.2"
+},
+
+    drawer: [
+        {
+            type: "DrawDefault"
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator",
+            rotateSpeed: 3
+        },
+        {
+            type: "DrawRegion",
+            suffix: "-rotator2"
+            rotateSpeed: 10
+        }
+    ]
+    outputLiquid: "steam-hi/0.2"
+    requirements: [
+        "advanced-electronic-circuit/60",
+        "concrete-brick/100"
+        "alternator/80",
+        "metaglass/40",
+        "alloy/350"
+    ],
+}

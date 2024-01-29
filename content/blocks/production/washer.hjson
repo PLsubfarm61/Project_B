@@ -12,6 +12,21 @@
         {
             input: {
 "fluids": [
+                "water/0.2",
+],
+"items": [
+                "project-b-raw-uranium/3"
+],
+"power": 3
+},
+            output: [ 
+                "project-b-uranium/3",
+],
+            craftTime: 120 
+        },
+        {
+            input: {
+"fluids": [
                 "water/0.3",
 ],
 "items": [

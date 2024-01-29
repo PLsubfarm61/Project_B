@@ -1,0 +1,104 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "power",
+    name: "Fast Breeder Reactor",
+
+    size: 12,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-fbr-depleted-uranium-rod/2",
+],
+"fluids": [
+                "project-b-liquid-sodium/0.6",
+],
+"power": 5
+            },
+            output: { 
+"items": [
+                "project-b-fbr-plutonium-rod/2",
+],
+"fluids": [
+                "project-b-hot-liquid-sodium/0.6",
+],
+},
+            craftTime: 120 
+        },
+        {
+            input: {
+"items": [
+                "project-b-fbr-thorium-rod/2",
+],
+"fluids": [
+                "project-b-liquid-sodium/0.6",
+],
+"power": 5
+            },
+            output: { 
+"items": [
+                "project-b-fbr-enriched-uranium-rod/2",
+],
+"fluids": [
+                "project-b-hot-liquid-sodium/0.6",
+],
+},
+            craftTime: 120 
+        },
+        {
+            input: {
+"items": [
+                "project-b-fbr-fuel-rod/2",
+],
+"fluids": [
+                "project-b-liquid-sodium/0.6",
+],
+"power": 5
+            },
+            output: { 
+"items": [
+                "project-b-fbr-depleted-fuel-rod/2",
+],
+"fluids": [
+                "project-b-hot-liquid-sodium/0.6",
+],
+},
+            craftTime: 120 
+        },
+        {
+            input: {
+"items": [
+                "project-b-fbr-enriched-fuel-rod/2",
+],
+"fluids": [
+                "project-b-liquid-sodium/0.9",
+],
+"power": 5
+            },
+            output: { 
+"items": [
+                "project-b-fbr-depleted-enriched-fuel-rod/2",
+],
+"fluids": [
+                "project-b-hot-liquid-sodium/0.9",
+],
+},
+            craftTime: 120 
+        },
+      ],
+
+    requirements: [
+        "alloy/1000",
+        "duralumin/50",
+        "silver/500",
+        "metaglass/1000",
+        "concrete-brick/1000"
+        "fast-electronic-circuit/10",
+        "control-rod/150",
+        "electric-engine/50",
+        "processor/50",
+    ],
+}

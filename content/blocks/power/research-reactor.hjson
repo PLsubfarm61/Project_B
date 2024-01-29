@@ -59,6 +59,28 @@
             input: {
 "items": [
                 "project-b-polonium-fuel-rod/1",
+                "project-b-neptunium/20",
+],
+"fluids": [
+                "water/0.6",
+],
+"power": 5
+            },
+            output: { 
+"items": [
+                "project-b-depleted-polonium-fuel-rod/1",
+                "project-b-plutonium/20"
+],
+"fluids": [
+                "project-b-steam-lo/0.6",
+],
+},
+            craftTime: 120 
+},
+{
+            input: {
+"items": [
+                "project-b-polonium-fuel-rod/1",
                 "project-b-lithium/30",
 ],
 "fluids": [

@@ -12,31 +12,61 @@
         {
             input: {
 "items": [
-                "project-b-gold/1",
+                "project-b-gold/4",
 ],
 "power": 4
             },
-            output: "project-b-gold-oxide/1",
+            output: "project-b-gold-oxide/4",
             craftTime: 100 
         },
         {
             input: {
 "items": [
-                "project-b-raw-uranium/1"
+                "project-b-raw-uranium/4"
 ]
 "power": 4
             },
-            output: "project-b-uranium-oxide/1",
+            output: "project-b-uranium-oxide/4",
             craftTime: 100 
         },
         {
             input: {
 "items": [
-                "lead/1"
+                "lead/4"
 ]
 "power": 4
             },
-            output: "project-b-lead-oxide/1",
+            output: "project-b-lead-oxide/4",
+            craftTime: 100 
+        },
+        {
+            input: {
+"items": [
+                "project-b-depleted-uranium/4"
+]
+"power": 4
+            },
+            output: "project-b-depleted-uranium-oxide/4",
+            craftTime: 100 
+        },
+        {
+            input: {
+"items": [
+                "project-b-depleted-plutonium/4"
+]
+"power": 4
+            },
+            output: "project-b-depleted-plutonium-oxide/4",
+            craftTime: 100 
+        },
+        {
+            input: {
+"items": [
+                "coal/4"
+]
+"power": 4
+            },
+            output: "project-b-carbon-dioxide/0.6",
             craftTime: 100 
         },
 

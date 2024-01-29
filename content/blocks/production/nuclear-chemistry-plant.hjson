@@ -1,0 +1,114 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Nuclear Chmistry Plant",
+
+    size: 5,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"items": [
+                "project-b-depleted-uranium-oxide/2",
+                "project-b-depleted-plutonium-oxide/2",
+],
+"fluids": [
+                
+],
+"power": 5.5,
+            },
+            output: { 
+"items": [
+                "project-b-mox-fuel/3",
+],
+},
+            craftTime: 120 
+        },
+        {
+            input: {
+"items": [
+                "project-b-depleted-nuclear-fuel-waste/13",
+],
+"fluids": [
+                "project-b-sulfur-acid/0.4",
+],
+"power": 5.5,
+            },
+            output: { 
+"items": [
+                "project-b-neptunium/7",
+                "project-b-fission-product/8",
+],
+},
+            craftTime: 360 
+        },
+        {
+            input: {
+"items": [
+                "project-b-fission-product/8",
+],
+"fluids": [
+                "project-b-sulfur-acid/0.2",
+],
+"power": 5.5,
+            },
+            output: { 
+"items": [
+                "project-b-fbr-fuel/5",
+                "project-b-nuclear-waste/7",
+],
+},
+            craftTime: 360 
+        },
+        {
+            input: {
+"items": [
+                "project-b-uranium/2",
+                "coal/3",
+],
+"fluids": [
+],
+"power": 5.5,
+            },
+            output: { 
+"items": [
+                "project-b-uranium-carbide/3",
+],
+},
+            craftTime: 360 
+        },
+        {
+            input: {
+"items": [
+                "project-b-uranium-carbide/3",
+                "coal/2",
+                "graphite/2",
+                "silicon/2",
+],
+"fluids": [
+],
+"power": 5.5,
+            },
+            output: { 
+"items": [
+                "project-b-triso-fuel/5",
+],
+},
+            craftTime: 360 
+        },
+
+    ],
+
+    requirements: [
+        "alloy/60",
+        "concrete-brick/100",
+        "silver/30",
+        "metaglass/100",
+        "cadmium/40",
+        "electric-engine/4",
+        "advanced-electronic-circuit/20",
+        "processor/5",
+    ],
+}

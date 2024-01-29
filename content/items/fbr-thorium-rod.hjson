@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "[FBR] Thorium Rod",
+	description": ".",
+	cost: 3.0,
+	color: "ffd37f"
+}
